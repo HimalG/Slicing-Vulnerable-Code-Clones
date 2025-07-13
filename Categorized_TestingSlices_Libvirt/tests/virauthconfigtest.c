@@ -1,0 +1,10 @@
+libvirt-1.1.0/tests/virauthconfigtest.c,mymain,confdata,def{103},use{124},dvars{config},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virauthconfigtest.c,mymain,config,def{89,124},use{95,97,100,101,102,127,128,129,130,131,132,134,255,256,257,260,262,263,264,331,333,336,337},dvars{next},pointers{},cfuncs{keyFree{1},virKeyFileFree{1},dataFree{2},dataFree{1},virHashFree{1},VIR_FREE{1},virAuthConfigFree{1},TEST_LOOKUP{1}}
+libvirt-1.1.0/tests/virauthconfigtest.c,mymain,ret,def{87},use{136},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virauthconfigtest.c,mymain,,def{85},use{68,84,124,136},dvars{},pointers{},cfuncs{strlen{3},virAuthConfigNewData{2}}
+libvirt-1.1.0/tests/virauthconfigtest.c,testAuthLookup,retrv,def{50},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virauthconfigtest.c,testAuthLookup,rv,def{48},use{56},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virauthconfigtest.c,testAuthLookup,actual,def{47},use{54,60,61,65,69,73,110,117,158},dvars{retrv},pointers{},cfuncs{VIR_WARN{5},NULLSTR{6},virAuthConfigLookup{5}}
+libvirt-1.1.0/tests/virauthconfigtest.c,testAuthLookup,data,def{46},use{50,51,52,53,59,61,63,64,71,72,101,103,104,109,112,114,119,124,129,134,137,141,149,153,158,163,359,362,363,369,374,377,379},dvars{value,NULLkey,retrv},pointers{args},cfuncs{VIR_FREE{1},virReportError{3},virReportError{2},VIR_DEBUG{2},VIR_DEBUG{3},virHashComputeKey{2},virHashLookup{2},virKeyFileGetValueString{3},VIR_WARN{5},VIR_WARN{4},VIR_WARN{3},VIR_WARN{2},keyCode{2},virAuthConfigLookup{4},virAuthConfigLookup{3},virAuthConfigLookup{2},virAuthConfigLookup{1}}
+libvirt-1.1.0/tests/virauthconfigtest.c,testAuthLookup,ret,def{45,78},use{78,80},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virauthconfigtest.c,testAuthLookup,args,def{43},use{46,50,51,52,53},dvars{retrv},pointers{},cfuncs{}

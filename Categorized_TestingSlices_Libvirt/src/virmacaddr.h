@@ -1,0 +1,9 @@
+libvirt-1.1.0/src/util/virmacaddr.h,GLOBAL,str,def{48},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virmacaddr.h,GLOBAL,dst[VIR_MAC_BUFLEN],def{46},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virmacaddr.h,GLOBAL,addr,def{47,50,53,54},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virmacaddr.h,GLOBAL,s[VIR_MAC_BUFLEN],def{43,45,55},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virmacaddr.h,GLOBAL,src,def{44,46},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virmacaddr.h,GLOBAL,dst,def{44,45},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virmacaddr.h,GLOBAL,mac2,def{40,41},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virmacaddr.h,GLOBAL,prefix[VIR_MAC_PREFIX_BUFLEN],def{49},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virmacaddr.h,GLOBAL,mac1,def{40,41,42},use{},dvars{},pointers{},cfuncs{}

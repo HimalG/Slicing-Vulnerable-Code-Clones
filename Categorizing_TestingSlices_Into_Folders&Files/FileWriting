@@ -1,0 +1,53 @@
+import os
+
+def process_line(line):
+    # Extract file path and the entire line
+    parts = line.split(',')
+    file_path = parts[0]  # The full path of the file
+    return file_path, line.strip()  # Return the file path and the entire line
+
+def write_entries(input_file):
+    root_folder = 'Categorized_TestingSlices_Libvirt'   #This is for Libvirt folder
+    # Read the input file and write entries into the respective files
+    with open(input_file, 'r') as file:
+        for line in file:
+            # Skip empty lines
+            if not line.strip():
+                continue
+            
+            # Process each line and get the file path and the entire line
+            file_path, entry_line = process_line(line)
+            
+            # Split the file path to create the folder structure
+            folder_structure = file_path.split('/')
+            
+            # Ensure the file path has at least three parts: 'libvirt-1.1.0' + 'folder' + 'file'
+            if len(folder_structure) < 3:
+                print(f"Skipping invalid entry: {file_path}")
+                continue
+            
+            # The second item in the path after 'libvirt-1.1.0' is the base folder (e.g., 'tests', 'tools')
+            base_folder = folder_structure[1]  # Example: 'tests', 'tools'
+            
+            # The file name is the last item in the path (e.g., 'virsh-snapshot.c')
+            file_name = folder_structure[-1]  # Example: 'virsh-snapshot.c'
+            
+            # Construct the full path to the file
+            full_file_path = os.path.join(root_folder, base_folder, file_name)
+            
+            # Check if the file exists before writing to it
+            if os.path.exists(full_file_path):
+                with open(full_file_path, 'a') as output_file:
+                    output_file.write(entry_line + "\n")  # Write the entry to the file
+                print(f"Writing entry to {full_file_path}")
+            else:
+                print(f"File not found: {full_file_path}")
+
+if __name__ == "__main__":
+    # Prompt the user to input the file path manually
+    input_file = input("Please enter the path to the input file: ")
+    write_entries(input_file)
+
+
+
+# TestingDataset/Target-Slices/libvirt-1.1.0.slice.xml

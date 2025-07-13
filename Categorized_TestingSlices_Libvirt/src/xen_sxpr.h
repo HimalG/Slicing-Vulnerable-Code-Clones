@@ -1,0 +1,14 @@
+libvirt-1.1.0/src/xenxs/xen_sxpr.h,GLOBAL,isAttach,def{57,61},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenxs/xen_sxpr.h,GLOBAL,buf,def{56,60,63,66,67},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenxs/xen_sxpr.h,GLOBAL,hvm,def{56,60},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenxs/xen_sxpr.h,GLOBAL,detach,def{64},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenxs/xen_sxpr.h,GLOBAL,conn,def{59,69},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenxs/xen_sxpr.h,GLOBAL,value,def{54},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenxs/xen_sxpr.h,GLOBAL,str,def{52},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenxs/xen_sxpr.h,GLOBAL,vncport,def{47,50},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenxs/xen_sxpr.h,GLOBAL,tty,def{47,50,54},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenxs/xen_sxpr.h,GLOBAL,xendConfigVersion,def{43,44,46,49,57,61,70},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenxs/xen_sxpr.h,GLOBAL,root,def{44,49},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenxs/xen_sxpr.h,GLOBAL,def,def{52,56,60,63,66,67,69},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenxs/xen_sxpr.h,GLOBAL,cpus,def{50},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenxs/xen_sxpr.h,GLOBAL,sexpr,def{43,46},use{},dvars{},pointers{},cfuncs{}

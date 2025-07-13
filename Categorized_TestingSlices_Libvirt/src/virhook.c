@@ -1,0 +1,24 @@
+libvirt-1.1.0/src/util/virhook.c,virHookCall,err,def{284},use{285},dvars{},pointers{},cfuncs{virReportError{3}}
+libvirt-1.1.0/src/util/virhook.c,virHookCall,opstr,def{212,237,240,243,246},use{249,270,272},dvars{cmd},pointers{op},cfuncs{virCommandNewArgList{3},VIR_DEBUG{2}}
+libvirt-1.1.0/src/util/virhook.c,virHookCall,id,def{201},use{272,837,843,844,1304,1311},dvars{cmd},pointers{driver,vm,list,arg,filename,name,obj,inputPath,id},cfuncs{virCommandAddArg{2},virCommandNewArgList{2}}
+libvirt-1.1.0/src/util/virhook.c,virHookCall,cmd,def{210,272},use{169,244,246,274,277,279,281,288,1529,1531,1534,1535,1540,1541,1559,1562,1565,1566,1571,1572,2025,2045,2073,2091,2115,2130,2136,2383,2546,2549,2552,2553,2556,2557,2558,2560,2561,2562,2564,2565,2566,2568,2569,2570,2572,2574,2578,2579,2582,2584,2585,2587,2588,2590,2593,2596},dvars{string_io,cmd,ret},pointers{},cfuncs{pthread_join{1},virThreadJoin{1},VIR_FORCE_CLOSE{1},virCommandSetOutputBuffer{1},virCommandAbort{1},VIR_DEBUG{2},virCommandAddEnvPassCommon{1},virCommandRun{1},errbuf ? NULLSTR{2},virCommandSetInputBuffer{1},VIR_FREE{1},virCommandFree{1}}
+libvirt-1.1.0/src/util/virhook.c,virHookCall,subopstr,def{213,255,257},use{256,257,270,272},dvars{cmd},pointers{sub_op},cfuncs{virCommandNewArgList{4},VIR_DEBUG{3}}
+libvirt-1.1.0/src/util/virhook.c,virHookCall,output,def{206,216},use{215,278,279,1559,1561,1571},dvars{cmd},pointers{},cfuncs{virCommandSetOutputBuffer{2}}
+libvirt-1.1.0/src/util/virhook.c,virHookCall,input,def{205},use{276,277,1529,1534,1540},dvars{},pointers{},cfuncs{virCommandSetInputBuffer{2}}
+libvirt-1.1.0/src/util/virhook.c,virHookCall,extra,def{204,259},use{258,259,270,272},dvars{cmd},pointers{},cfuncs{virCommandNewArgList{5},VIR_DEBUG{4}}
+libvirt-1.1.0/src/util/virhook.c,virHookCall,path,def{209},use{261,262,272,290,835,839,840,844,846,1306,1311,1318,1323},dvars{cmd,ret},pointers{},cfuncs{virCommandAddArg{1},VIR_FREE{1},virCommandNewArgList{1},virBuildPath{1}}
+libvirt-1.1.0/src/util/virhook.c,virHookCall,sub_op,def{203},use{255,272},dvars{cmd},pointers{},cfuncs{virHookSubopTypeToString{1}}
+libvirt-1.1.0/src/util/virhook.c,virHookCall,ret,def{208,261,281},use{262,282,292},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virhook.c,virHookCall,op,def{202},use{228,229,240,243,246,252,272},dvars{cmd},pointers{},cfuncs{virReportError{3},virHookLxcOpTypeToString{1},virHookQemuOpTypeToString{1},virHookDaemonOpTypeToString{1}}
+libvirt-1.1.0/src/util/virhook.c,virHookCall,drvstr,def{211,235},use{252,261,265},dvars{ret},pointers{driver},cfuncs{virBuildPath{3},virReportError{2}}
+libvirt-1.1.0/src/util/virhook.c,virHookCall,driver,def{200},use{218,219,227,232,235,238,261},dvars{ret},pointers{},cfuncs{virHookDriverTypeToString{1}}
+libvirt-1.1.0/src/util/virhook.c,virHookPresent,driver,def{168},use{169,170,175},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virhook.c,virHookInitialize,retvirHooksFound,def{144},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virhook.c,virHookInitialize,ret,def{142},use{152,155},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virhook.c,virHookInitialize,res,def{142,146},use{147,150},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virhook.c,virHookInitialize,i,def{142},use{100,109,110,117,119,120,122,125,128,145,146,151},dvars{ret,res},pointers{},cfuncs{VIR_WARN{2},VIR_FREE{1},VIR_DEBUG{2},virBuildPath{1},virHookDriverTypeToString{2},virHookCheck{1}}
+libvirt-1.1.0/src/util/virhook.c,virHookInitialize,,def{141},use{147},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virhook.c,virHookCheck,ret,def{101,109,118,121,124},use{110,118,121,124,129},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virhook.c,virHookCheck,driver,def{99},use{103,109,113},dvars{ret},pointers{},cfuncs{virReportError{2},virBuildPath{3}}
+libvirt-1.1.0/src/util/virhook.c,virHookCheck,path,def{100},use{109,110,117,119,120,122,125,128},dvars{ret},pointers{i},cfuncs{VIR_WARN{2},VIR_FREE{1},VIR_DEBUG{2},virBuildPath{1}}
+libvirt-1.1.0/src/util/virhook.c,virHookCheck,no,def{99},use{105},dvars{},pointers{},cfuncs{virReportError{2}}

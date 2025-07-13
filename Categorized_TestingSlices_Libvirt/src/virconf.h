@@ -1,0 +1,10 @@
+libvirt-1.1.0/src/util/virconf.h,virConfTypeName,setting,def{90,92},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virconf.h,virConfTypeName,val,def{87},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virconf.h,virConfTypeName,value,def{93},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virconf.h,virConfTypeName,conf,def{86,89,91,95,98},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virconf.h,virConfTypeName,filename,def{83,94},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virconf.h,virConfTypeName,,def{82},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virconf.h,virConfTypeName,t,def{46},use{48},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virconf.h,virConfTypeName,memory,def{84,96},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virconf.h,virConfTypeName,len,def{85,97},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virconf.h,virConfTypeName,flags,def{83,85},use{},dvars{},pointers{},cfuncs{}

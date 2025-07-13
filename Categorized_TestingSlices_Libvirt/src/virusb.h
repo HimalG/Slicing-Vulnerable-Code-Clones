@@ -1,0 +1,16 @@
+libvirt-1.1.0/src/util/virusb.h,GLOBAL,idx,def{88},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virusb.h,GLOBAL,,def{84},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virusb.h,GLOBAL,opaque,def{78,82},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virusb.h,GLOBAL,devices,def{52},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virusb.h,GLOBAL,path,def{78},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virusb.h,GLOBAL,name,def{63},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virusb.h,GLOBAL,dev,def{62,63,64,65,67,68,77,80,86,91,93,95},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virusb.h,GLOBAL,devno,def{39,43,57},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virusb.h,GLOBAL,product,def{49,55},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virusb.h,GLOBAL,vendor,def{48,54},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virusb.h,GLOBAL,vroot,def{40,44,50,58},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virusb.h,GLOBAL,bus,def{38,42,56},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virusb.h,GLOBAL,list,def{85,87,89,90,92,94},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virusb.h,GLOBAL,mandatory,def{45,51,59},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virusb.h,GLOBAL,actor,def{81},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virusb.h,GLOBAL,usb,def{46,60},use{},dvars{},pointers{},cfuncs{}

@@ -1,0 +1,10 @@
+libvirt-1.1.0/tools/virt-host-validate-common.h,GLOBAL,name,def{50},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tools/virt-host-validate-common.h,GLOBAL,hint,def{43,48,55},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tools/virt-host-validate-common.h,GLOBAL,version,def{53},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tools/virt-host-validate-common.h,GLOBAL,,def{38,41},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tools/virt-host-validate-common.h,GLOBAL,devname,def{46},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tools/virt-host-validate-common.h,GLOBAL,level,def{42,47,54},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tools/virt-host-validate-common.h,GLOBAL,format,def{38},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tools/virt-host-validate-common.h,GLOBAL,hvname,def{45,52},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tools/virt-host-validate-common.h,GLOBAL,prefix,def{37},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tools/virt-host-validate-common.h,GLOBAL,quietFlag,def{35},use{},dvars{},pointers{},cfuncs{}

@@ -1,0 +1,16 @@
+libvirt-1.1.0/src/util/virnetlink.h,GLOBAL,macaddr,def{61,93,99},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetlink.h,GLOBAL,watch,def{61,99},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetlink.h,GLOBAL,opaque,def{59,61,93},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetlink.h,GLOBAL,length,def{56},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetlink.h,GLOBAL,groups,def{53,76},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetlink.h,GLOBAL,protocol,def{53,66,76,81,86,94,100},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetlink.h,GLOBAL,dst_pid,def{52},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetlink.h,GLOBAL,src_pid,def{52},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetlink.h,GLOBAL,removeCB,def{92},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetlink.h,GLOBAL,handleCB,def{91},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetlink.h,GLOBAL,handled,def{58},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetlink.h,GLOBAL,,def{47,48,55,71},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetlink.h,GLOBAL,respbuflen,def{51},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetlink.h,GLOBAL,peer,def{57},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetlink.h,GLOBAL,resp,def{51},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetlink.h,GLOBAL,nl_msg,def{50},use{},dvars{},pointers{},cfuncs{}

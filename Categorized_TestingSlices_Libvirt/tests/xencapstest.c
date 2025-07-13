@@ -1,0 +1,25 @@
+libvirt-1.1.0/tests/xencapstest.c,mymain,ret,def{161,169,173,184,188,192,196,200,204,208,212},use{169,173,184,188,192,196,200,204,208,212,215},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/xencapstest.c,mymain,,def{159},use{168,172,183,187,191,195,199,203,207,211,215},dvars{},pointers{},cfuncs{virtTestRun{4},virtTestRun{3}}
+libvirt-1.1.0/tests/xencapstest.c,testXenppc64,ATTRIBUTE_UNUSED,def{141},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/xencapstest.c,testXenx86_64,ATTRIBUTE_UNUSED,def{102},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/xencapstest.c,testXenia64HVM,ATTRIBUTE_UNUSED,def{128},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/xencapstest.c,testCompareFiles,capabilities,def{28},use{32,41,44,62},dvars{caps},pointers{},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/tests/xencapstest.c,testCompareFiles,cpuinfo,def{27},use{31,38,44,61},dvars{caps},pointers{},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/tests/xencapstest.c,testCompareFiles,fp2,def{21,41},use{44,64},dvars{caps},pointers{capabilities},cfuncs{VIR_FORCE_FCLOSE{1}}
+libvirt-1.1.0/tests/xencapstest.c,testCompareFiles,xml,def{26},use{30,35,60},dvars{},pointers{},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/tests/xencapstest.c,testCompareFiles,ret,def{24,55},use{55,67},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/xencapstest.c,testCompareFiles,xml_rel,def{16},use{30},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/xencapstest.c,testCompareFiles,fp1,def{21,38},use{44,63},dvars{caps},pointers{cpuinfo},cfuncs{VIR_FORCE_FCLOSE{1}}
+libvirt-1.1.0/tests/xencapstest.c,testCompareFiles,hostmachine,def{16},use{44},dvars{caps},pointers{},cfuncs{}
+libvirt-1.1.0/tests/xencapstest.c,testCompareFiles,actualxml,def{20,47},use{50,51,59,356,359,360,385},dvars{},pointers{caps},cfuncs{VIR_FREE{1},(int) {3},strlen{1},virtTestDifference{3}}
+libvirt-1.1.0/tests/xencapstest.c,testCompareFiles,expectxml,def{19},use{35,50,51,58},dvars{},pointers{},cfuncs{VIR_FREE{1},virtTestDifference{2}}
+libvirt-1.1.0/tests/xencapstest.c,testCompareFiles,cpuinfo_rel,def{17},use{31},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/xencapstest.c,testCompareFiles,capabilities_rel,def{17},use{32},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/xencapstest.c,testCompareFiles,caps,def{22,44},use{47,66,254,256,258,259,260,262,263,266,271,272,273,274,338,343},dvars{klass,is_zero},pointers{},cfuncs{VIR_FREE{1},dispose{1},virAtomicIntDecAndTest{1},memset{3},memset{1},PROBE{3},virObjectUnref{1}}
+libvirt-1.1.0/tests/xencapstest.c,testXenia64BE,ATTRIBUTE_UNUSED,def{121},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/xencapstest.c,testXenia64BEHVM,ATTRIBUTE_UNUSED,def{134},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/xencapstest.c,testXenia64,ATTRIBUTE_UNUSED,def{115},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/xencapstest.c,testXenx86_64HVM,ATTRIBUTE_UNUSED,def{108},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/xencapstest.c,testXeni686,ATTRIBUTE_UNUSED,def{70},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/xencapstest.c,testXeni686PAEHVM,ATTRIBUTE_UNUSED,def{84},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/xencapstest.c,testXeni686PAE,ATTRIBUTE_UNUSED,def{77},use{},dvars{},pointers{},cfuncs{}

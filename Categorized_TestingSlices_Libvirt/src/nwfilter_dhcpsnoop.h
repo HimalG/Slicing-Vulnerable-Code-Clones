@@ -1,0 +1,10 @@
+libvirt-1.1.0/src/nwfilter/nwfilter_dhcpsnoop.h,GLOBAL,filterparams,def{36},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nwfilter/nwfilter_dhcpsnoop.h,GLOBAL,macaddr,def{34},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nwfilter/nwfilter_dhcpsnoop.h,GLOBAL,vmuuid,def{33},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nwfilter/nwfilter_dhcpsnoop.h,GLOBAL,nettype,def{32},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nwfilter/nwfilter_dhcpsnoop.h,GLOBAL,linkdev,def{31},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nwfilter/nwfilter_dhcpsnoop.h,GLOBAL,driver,def{37},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nwfilter/nwfilter_dhcpsnoop.h,GLOBAL,techdriver,def{29},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nwfilter/nwfilter_dhcpsnoop.h,GLOBAL,filtername,def{35},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nwfilter/nwfilter_dhcpsnoop.h,GLOBAL,ifname,def{30,38},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nwfilter/nwfilter_dhcpsnoop.h,GLOBAL,,def{27,28},use{},dvars{},pointers{},cfuncs{}

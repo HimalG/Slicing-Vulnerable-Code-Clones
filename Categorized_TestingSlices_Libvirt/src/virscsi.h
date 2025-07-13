@@ -1,0 +1,13 @@
+libvirt-1.1.0/src/util/virscsi.h,GLOBAL,idx,def{79},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virscsi.h,GLOBAL,list,def{76,78,80,81,83,85},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virscsi.h,GLOBAL,target,def{38,42,47},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virscsi.h,GLOBAL,,def{75},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virscsi.h,GLOBAL,actor,def{72},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virscsi.h,GLOBAL,opaque,def{69,73},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virscsi.h,GLOBAL,path,def{69},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virscsi.h,GLOBAL,name,def{52},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virscsi.h,GLOBAL,dev,def{51,52,53,54,55,56,57,58,59,68,71,77,82,84,86},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virscsi.h,GLOBAL,readonly,def{49},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virscsi.h,GLOBAL,unit,def{39,43,48},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virscsi.h,GLOBAL,bus,def{37,41,46},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virscsi.h,GLOBAL,adapter,def{36,40,45},use{},dvars{},pointers{},cfuncs{}

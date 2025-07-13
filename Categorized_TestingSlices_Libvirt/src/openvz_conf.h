@@ -1,0 +1,16 @@
+libvirt-1.1.0/src/openvz/openvz_conf.h,GLOBAL,veid,def{71},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/openvz/openvz_conf.h,GLOBAL,def,def{71},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/openvz/openvz_conf.h,GLOBAL,name,def{70},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/openvz/openvz_conf.h,GLOBAL,uuid,def{68},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/openvz/openvz_conf.h,GLOBAL,str,def{67},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/openvz/openvz_conf.h,GLOBAL,,def{64,69},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/openvz/openvz_conf.h,GLOBAL,conf_file,def{62},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/openvz/openvz_conf.h,GLOBAL,ext,def{53},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/openvz/openvz_conf.h,GLOBAL,value,def{60,61,62},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/openvz/openvz_conf.h,GLOBAL,param,def{60,61,62},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/openvz/openvz_conf.h,GLOBAL,driver,def{59,65,66},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/openvz/openvz_conf.h,GLOBAL,maxlen,def{58},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/openvz/openvz_conf.h,GLOBAL,ptr,def{58},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/openvz/openvz_conf.h,GLOBAL,fd,def{58},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/openvz/openvz_conf.h,GLOBAL,conffile,def{53},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/openvz/openvz_conf.h,GLOBAL,vpsid,def{53,60,61,63,68},use{},dvars{},pointers{},cfuncs{}

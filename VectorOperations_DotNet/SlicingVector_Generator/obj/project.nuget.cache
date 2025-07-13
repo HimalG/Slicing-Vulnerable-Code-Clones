@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7ri3A4tx5rskp2wH11IwM0FgCgKMJCXV4Ou5+NjCapzCHuxJdwPLHfX13vPJ7MEPunI7YB6/8emaDA6kOLkPHQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Himal\\Desktop\\Post_Defense\\Slicing-Vulnerable-Code-Clones\\VectorOperations_DotNet\\SlicingVector_Generator\\SlicingVector_Generator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Himal\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.118\\stub.system.data.sqlite.core.netstandard.1.0.118.nupkg.sha512",
+    "C:\\Users\\Himal\\.nuget\\packages\\system.data.sqlite.core\\1.0.118\\system.data.sqlite.core.1.0.118.nupkg.sha512"
+  ],
+  "logs": []
+}

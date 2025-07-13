@@ -1,0 +1,12 @@
+libvirt-1.1.0/src/qemu/qemu_cgroup.h,GLOBAL,nvcpupin,def{53},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_cgroup.h,GLOBAL,cgroup,def{48,51,55},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_cgroup.h,GLOBAL,disk,def{33,35},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_cgroup.h,GLOBAL,quota,def{50},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_cgroup.h,GLOBAL,cpumask,def{55},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_cgroup.h,GLOBAL,driver,def{42,45,57},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_cgroup.h,GLOBAL,vcpuid,def{54},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_cgroup.h,GLOBAL,nodemask,def{47,59},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_cgroup.h,GLOBAL,period,def{49},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_cgroup.h,GLOBAL,startup,def{44},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_cgroup.h,GLOBAL,vcpupin,def{52},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_cgroup.h,GLOBAL,vm,def{32,34,43,46,56,58,60,61},use{},dvars{},pointers{},cfuncs{}

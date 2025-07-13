@@ -1,0 +1,2 @@
+libvirt-1.1.0/gnulib/tests/test-freading.c,main,fp,def{35,38,46,69,96,122},use{39,40,41,42,43,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,70,71,72,73,74,76,77,80,82,83,84,88,97,98,99,100,101,103,104,105,107,108,111,113,114,115,119,123,124,125,126,127},dvars{},pointers{},cfuncs{fflush {1},fseek {1},fputc {2},ASSERT {1},fgetc {1},fclose {1},fwrite {4},freading {1}}
+libvirt-1.1.0/gnulib/tests/test-freading.c,main,,def{33},use{},dvars{},pointers{},cfuncs{}

@@ -1,0 +1,59 @@
+import os
+
+def process_line(line):
+    # Extract file path (the first part of the line)
+    parts = line.split(',')
+    file_path = parts[0]
+    return file_path
+
+def create_folders(input_file):
+    # Create the root folder where everything will be stored
+    root_folder = 'Categorized_TestingSlices_Libvirt'   #This is for Libvirt folder
+    
+    if not os.path.exists(root_folder):
+        os.makedirs(root_folder)
+    
+    # Read the input file and organize the folder structure
+    with open(input_file, 'r') as file:
+        for line in file:
+            # Skip empty lines
+            if not line.strip():
+                continue
+            
+            # Process each line and get the file path
+            file_path = process_line(line)
+            
+            # Split the file path to create the folder structure
+            folder_structure = file_path.split('/')
+            
+            # Ensure the file path has at least three parts: 'libvirt-1.1.0' + 'folder' + 'file'
+            if len(folder_structure) < 3:
+                print(f"Skipping invalid entry: {file_path}")
+                continue
+            
+            # The second item after 'libvirt-1.1.0' is the base folder (e.g., 'tests', 'tools')
+            base_folder = folder_structure[1]  # Example: 'tests', 'tools'
+            
+            # Create the folder inside the root folder
+            folder_path = os.path.join(root_folder, base_folder)
+            if not os.path.exists(folder_path):
+                os.makedirs(folder_path)
+
+            # The file name will be extracted from the last item in the path
+            file_name = folder_structure[-1]
+            
+            # Create an empty file inside the folder to be populated later
+            file_path = os.path.join(folder_path, file_name)
+            if not os.path.exists(file_path):
+                open(file_path, 'w').close()  # Create an empty file
+
+            print(f"Folder and file created: {file_path}")
+
+if __name__ == "__main__":
+    # Prompt the user to input the file path manually
+    input_file = input("Please enter the path to the input file: ")
+    create_folders(input_file)
+
+
+
+# TestingDataset/Target-Slices/libvirt-1.1.0.slice.xml

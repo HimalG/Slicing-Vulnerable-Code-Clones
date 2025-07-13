@@ -1,0 +1,13 @@
+libvirt-1.1.0/src/util/virsexpr.h,GLOBAL,name,def{65,66,67},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virsexpr.h,GLOBAL,fmt,def{60},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virsexpr.h,GLOBAL,lst,def{54},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virsexpr.h,GLOBAL,dst,def{59},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virsexpr.h,GLOBAL,cdr,def{53},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virsexpr.h,GLOBAL,len,def{52},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virsexpr.h,GLOBAL,item,def{54},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virsexpr.h,GLOBAL,buffer,def{47,48},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virsexpr.h,GLOBAL,car,def{53},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virsexpr.h,GLOBAL,str,def{52},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virsexpr.h,GLOBAL,node,def{58,59,62,63},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virsexpr.h,GLOBAL,,def{51,60},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virsexpr.h,GLOBAL,sexpr,def{47,55,58,59,60,62,63,65,66,67},use{},dvars{},pointers{},cfuncs{}

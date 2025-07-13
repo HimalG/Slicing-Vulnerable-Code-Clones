@@ -1,0 +1,11 @@
+libvirt-1.1.0/src/fdstream.h,GLOBAL,fcb,def{61},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/fdstream.h,GLOBAL,cb,def{59},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/fdstream.h,GLOBAL,mode,def{56},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/fdstream.h,GLOBAL,offset,def{48,53},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/fdstream.h,GLOBAL,path,def{37,43,47,52},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/fdstream.h,GLOBAL,length,def{49,54},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/fdstream.h,GLOBAL,opaque,def{31,33,60},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/fdstream.h,GLOBAL,abstract,def{44},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/fdstream.h,GLOBAL,fd,def{40},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/fdstream.h,GLOBAL,oflags,def{50,55},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/fdstream.h,GLOBAL,st,def{31,39,42,46,51,58},use{},dvars{},pointers{},cfuncs{}

@@ -1,0 +1,17 @@
+libvirt-1.1.0/src/util/virhashcode.c,fmix,h,def{47},use{49,50,51,52,53,55},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virhashcode.c,virHashCodeGen,hblocks,def{70},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virhashcode.c,virHashCodeGen,k1,def{65,80,83,95,107},use{55,57,82,83,84,86,95,99,102,105,106,107,108,109},dvars{},pointers{},cfuncs{rotl32{1}}
+libvirt-1.1.0/src/util/virhashcode.c,virHashCodeGen,c2,def{67,74},use{74,84,108},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virhashcode.c,virHashCodeGen,h1,def{64,72,87,88,118},use{47,49,50,51,52,53,55,57,86,87,109,117,118,120},dvars{},pointers{},cfuncs{fmix{1},rotl32{1}}
+libvirt-1.1.0/src/util/virhashcode.c,virHashCodeGen,nblocks,def{63,71},use{78,93},dvars{tail},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virhashcode.c,virHashCodeGen,c1,def{66,73},use{73,82,106},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virhashcode.c,virHashCodeGen,tail,def{62,93},use{99,102,105},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virhashcode.c,virHashCodeGen,i,def{68},use{34,39,78,80},dvars{k1},pointers{},cfuncs{memcpy{2},getblock{2}}
+libvirt-1.1.0/src/util/virhashcode.c,virHashCodeGen,blocks,def{61},use{36,39,41,80},dvars{k1},pointers{},cfuncs{memcpy{1},getblock{1}}
+libvirt-1.1.0/src/util/virhashcode.c,virHashCodeGen,seed,def{59},use{72},dvars{h1},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virhashcode.c,virHashCodeGen,len,def{59},use{71,97,117},dvars{nblocks},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virhashcode.c,virHashCodeGen,key,def{59},use{70,93},dvars{tail,hblocks},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virhashcode.c,getblock,size,def{37},use{39},dvars{},pointers{},cfuncs{memcpy{3}}
+libvirt-1.1.0/src/util/virhashcode.c,getblock,r,def{36},use{39,41},dvars{},pointers{},cfuncs{memcpy{1}}
+libvirt-1.1.0/src/util/virhashcode.c,getblock,i,def{34},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virhashcode.c,getblock,p,def{34},use{39},dvars{},pointers{i},cfuncs{memcpy{2}}

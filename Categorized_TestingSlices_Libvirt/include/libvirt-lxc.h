@@ -1,0 +1,9 @@
+libvirt-1.1.0/include/libvirt/libvirt-lxc.h,GLOBAL,label,def{46},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/include/libvirt/libvirt-lxc.h,GLOBAL,oldlabel,def{47},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/include/libvirt/libvirt-lxc.h,GLOBAL,model,def{45},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/include/libvirt/libvirt-lxc.h,GLOBAL,oldfdlist,def{43},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/include/libvirt/libvirt-lxc.h,GLOBAL,noldfdlist,def{42},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/include/libvirt/libvirt-lxc.h,GLOBAL,nfdlist,def{40},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/include/libvirt/libvirt-lxc.h,GLOBAL,fdlist,def{36,41},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/include/libvirt/libvirt-lxc.h,GLOBAL,flags,def{37,44,48},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/include/libvirt/libvirt-lxc.h,GLOBAL,domain,def{35,39},use{},dvars{},pointers{},cfuncs{}

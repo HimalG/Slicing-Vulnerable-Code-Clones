@@ -1,0 +1,10 @@
+libvirt-1.1.0/src/libxl/libxl_conf.h,GLOBAL,d_config,def{129},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/libxl/libxl_conf.h,GLOBAL,l_vfb,def{125},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/libxl/libxl_conf.h,GLOBAL,x_nic,def{122},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/libxl/libxl_conf.h,GLOBAL,x_vfb,def{125},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/libxl/libxl_conf.h,GLOBAL,driver,def{124,128},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/libxl/libxl_conf.h,GLOBAL,ctx,def{117},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/libxl/libxl_conf.h,GLOBAL,l_nic,def{122},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/libxl/libxl_conf.h,GLOBAL,l_dev,def{120},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/libxl/libxl_conf.h,GLOBAL,def,def{129},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/libxl/libxl_conf.h,GLOBAL,x_dev,def{120},use{},dvars{},pointers{},cfuncs{}

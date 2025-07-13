@@ -1,0 +1,12 @@
+libvirt-1.1.0/src/util/virprocess.h,GLOBAL,files,def{62},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virprocess.h,GLOBAL,procs,def{61},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virprocess.h,GLOBAL,timestamp,def{51},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virprocess.h,GLOBAL,bytes,def{60},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virprocess.h,GLOBAL,fdlist,def{55,58},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virprocess.h,GLOBAL,maxcpu,def{48},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virprocess.h,GLOBAL,sig,def{40},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virprocess.h,GLOBAL,force,def{42},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virprocess.h,GLOBAL,map,def{44,47},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virprocess.h,GLOBAL,nfdlist,def{54,57},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virprocess.h,GLOBAL,pid,def{34,40,42,44,46,50,53,60,61,62},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virprocess.h,GLOBAL,status,def{31},use{},dvars{},pointers{},cfuncs{}

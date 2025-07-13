@@ -1,0 +1,16 @@
+libvirt-1.1.0/src/rpc/virnetserverprogram.h,GLOBAL,len,def{102},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverprogram.h,GLOBAL,data,def{101},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverprogram.h,GLOBAL,serial,def{90,100},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverprogram.h,GLOBAL,procedure,def{69,89,99},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverprogram.h,GLOBAL,prog,def{65,66,68,71,74,79,85,96},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverprogram.h,GLOBAL,version,def{61},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverprogram.h,GLOBAL,program,def{60},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverprogram.h,GLOBAL,args,def{47},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverprogram.h,GLOBAL,procs,def{62},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverprogram.h,GLOBAL,req,def{83,94},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverprogram.h,GLOBAL,ret,def{48},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverprogram.h,GLOBAL,rerr,def{46,82,88},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverprogram.h,GLOBAL,msg,def{45,72,77,81,87,93,98},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverprogram.h,GLOBAL,client,def{44,76,80,86,92,97},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverprogram.h,GLOBAL,nprocs,def{63},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverprogram.h,GLOBAL,server,def{43,75},use{},dvars{},pointers{},cfuncs{}

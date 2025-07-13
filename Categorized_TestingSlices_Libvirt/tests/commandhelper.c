@@ -1,0 +1,25 @@
+libvirt-1.1.0/tests/commandhelper.c,main,,def{160},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/commandhelper.c,main,got,def{127,135},use{136,138,140,142},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/commandhelper.c,main,buf,def{126},use{135,140,142},dvars{got},pointers{},cfuncs{read{4},read{2}}
+libvirt-1.1.0/tests/commandhelper.c,main,f,def{99},use{103},dvars{closed},pointers{},cfuncs{fcntl{3}}
+libvirt-1.1.0/tests/commandhelper.c,main,EXIT_FAILUREorigenv,def{82},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/commandhelper.c,main,log,def{63},use{65,69,95,101,106,109,115,118,135,137,138,139},dvars{retval},pointers{},cfuncs{va_end {1},vfprintf {3},va_start {1},VIR_FORCE_FCLOSE{1},fprintf{1}}
+libvirt-1.1.0/tests/commandhelper.c,main,cwd,def{62,110},use{112,113,114,115,116,132},dvars{},pointers{},cfuncs{VIR_FREE{1},fprintf{3},strcpy{1}}
+libvirt-1.1.0/tests/commandhelper.c,main,i,def{59},use{68,83,91,98,101,103,106,132},dvars{closed,n},pointers{},cfuncs{fprintf{3},fcntl{1}}
+libvirt-1.1.0/tests/commandhelper.c,main,newenv,def{61,85},use{79,89,94,95,132},dvars{},pointers{},cfuncs{fprintf{3},qsort{4},qsort{1}}
+libvirt-1.1.0/tests/commandhelper.c,main,closed,def{100,103},use{105},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/commandhelper.c,main,argv,def{58},use{69,120,132},dvars{},pointers{},cfuncs{fprintf{3}}
+libvirt-1.1.0/tests/commandhelper.c,main,origenv,def{60,72},use{74,76,84,85,87},dvars{newenv},pointers{},cfuncs{}
+libvirt-1.1.0/tests/commandhelper.c,main,n,def{59,73,83},use{73,75,79,86,89,91},dvars{},pointers{},cfuncs{qsort{2}}
+libvirt-1.1.0/tests/commandhelper.c,main,argc,def{58},use{68,120},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/commandhelper.c,envsort,ret,def{48,52},use{55},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/commandhelper.c,envsort,beq,def{45},use{51},dvars{},pointers{strchr},cfuncs{VIR_STRNDUP_QUIET{3}}
+libvirt-1.1.0/tests/commandhelper.c,envsort,aeq,def{44},use{50},dvars{},pointers{strchr},cfuncs{VIR_STRNDUP_QUIET{3}}
+libvirt-1.1.0/tests/commandhelper.c,envsort,bstr,def{43},use{45,51},dvars{},pointers{bstrptr},cfuncs{VIR_STRNDUP_QUIET{3},VIR_STRNDUP_QUIET{2},strchr{1}}
+libvirt-1.1.0/tests/commandhelper.c,envsort,bkey,def{47},use{51,52,54},dvars{ret},pointers{},cfuncs{VIR_FREE{1},strcmp{2},VIR_STRNDUP_QUIET{1}}
+libvirt-1.1.0/tests/commandhelper.c,envsort,astr,def{42},use{44,50},dvars{},pointers{astrptr},cfuncs{VIR_STRNDUP_QUIET{3},VIR_STRNDUP_QUIET{2},strchr{1}}
+libvirt-1.1.0/tests/commandhelper.c,envsort,astrptr,def{40},use{42},dvars{},pointers{a},cfuncs{}
+libvirt-1.1.0/tests/commandhelper.c,envsort,bstrptr,def{41},use{43},dvars{},pointers{b},cfuncs{}
+libvirt-1.1.0/tests/commandhelper.c,envsort,b,def{39},use{41},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/commandhelper.c,envsort,akey,def{46},use{50,52,53},dvars{ret},pointers{},cfuncs{VIR_FREE{1},strcmp{1},VIR_STRNDUP_QUIET{1}}
+libvirt-1.1.0/tests/commandhelper.c,envsort,a,def{39},use{40},dvars{},pointers{},cfuncs{}

@@ -1,0 +1,10 @@
+libvirt-1.1.0/src/lxc/lxc_container.h,GLOBAL,arch,def{66},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/lxc/lxc_container.h,GLOBAL,features,def{64},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/lxc/lxc_container.h,GLOBAL,handshakefd,def{60},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/lxc/lxc_container.h,GLOBAL,control,def{52,53,59},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/lxc/lxc_container.h,GLOBAL,veths,def{58},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/lxc/lxc_container.h,GLOBAL,nttyPaths,def{62},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/lxc/lxc_container.h,GLOBAL,ttyPaths,def{61},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/lxc/lxc_container.h,GLOBAL,nveths,def{57},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/lxc/lxc_container.h,GLOBAL,securityDriver,def{56},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/lxc/lxc_container.h,GLOBAL,def,def{55},use{},dvars{},pointers{},cfuncs{}

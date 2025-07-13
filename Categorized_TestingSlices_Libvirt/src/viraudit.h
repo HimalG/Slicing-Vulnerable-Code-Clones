@@ -1,0 +1,12 @@
+libvirt-1.1.0/src/util/viraudit.h,GLOBAL,value,def{44},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.h,GLOBAL,key,def{44},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.h,GLOBAL,fmt,def{41},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.h,GLOBAL,clienttty,def{39},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.h,GLOBAL,funcname,def{38},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.h,GLOBAL,linenr,def{38},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.h,GLOBAL,clientaddr,def{39},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.h,GLOBAL,type,def{40},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.h,GLOBAL,enabled,def{36},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.h,GLOBAL,success,def{40},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.h,GLOBAL,filename,def{38},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.h,GLOBAL,,def{34,41,46,48,52,56},use{},dvars{},pointers{},cfuncs{}

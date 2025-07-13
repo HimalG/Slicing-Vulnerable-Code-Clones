@@ -1,0 +1,86 @@
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartBoundries,neededSize,def{560},use{564,568,576,592},dvars{alignedAllocation},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartBoundries,partType,def{550},use{572,581,586,605},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartBoundries,cylinderSize,def{545},use{549,554,565,568,613},dvars{extraBytes},pointers{},cfuncs{VIR_DEBUG{3}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartBoundries,dev,def{544},use{545,546,556,558,559,582,587,603},dvars{size,start,cylinderSize},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartBoundries,allocation,def{537},use{543,548,554,560},dvars{neededSize,extraBytes,alignedAllocation},pointers{},cfuncs{VIR_DEBUG{2}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartBoundries,smallestExtent,def{540,591},use{596},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartBoundries,end,def{536,610},use{613,617,618},dvars{},pointers{},cfuncs{VIR_DEBUG{3}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartBoundries,extraBytes,def{542,554},use{564,565},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartBoundries,smallestSize,def{541,590},use{577,578},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartBoundries,alignedAllocation,def{543,592},use{602,610},dvars{end},pointers{},cfuncs{VIR_DEBUG{2}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartBoundries,i,def{539},use{556,591},dvars{smallestExtent},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartBoundries,start,def{535,603},use{565,607,610,613,618},dvars{end},pointers{},cfuncs{VIR_DEBUG{2}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartBoundries,size,def{557},use{573,576,578,590},dvars{smallestSize},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartBoundries,pool,def{534},use{435,437,442,443,444,544,550,562,611},dvars{dev},pointers{},cfuncs{virStorageBackendDiskPartTypeToCreate{1}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskBuildVolFrom,resbuild_func,def{692},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskBuildVolFrom,inputvol,def{687},use{692,696,1045,1049,1057,1058},dvars{resbuild_func},pointers{},cfuncs{virStorageBackendGetBuildVolFromFunction{2}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskBuildVolFrom,vol,def{686},use{692,696,1044,1055,1056,1070},dvars{resbuild_func},pointers{},cfuncs{virStorageBackendGetBuildVolFromFunction{1}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskBuildVolFrom,pool,def{685},use{696},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskBuildVolFrom,build_func,def{690},use{693,696},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskBuildVolFrom,flags,def{688},use{696},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskBuildVolFrom,conn,def{684},use{696},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartFormat,i,def{462},use{473,497,508},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartFormat,partFormat,def{460},use{481,490,500,521},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartFormat,partedFormat,def{464,465},use{466,481,490,501},dvars{},pointers{vol},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartFormat,vol,def{459},use{465,471},dvars{},pointers{},cfuncs{virStoragePartedFsTypeTypeToString{1}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartFormat,pool,def{458},use{463,473,474,488,497,498,508},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskCreateVol,cmd,def{631},use{169,244,246,647,655,656,658,679,1306,1311,1318,1323,1373,1380,1389,1394,2383,2546,2549,2552,2553,2556,2557,2558,2560,2561,2562,2564,2565,2566,2568,2569,2570,2572,2574,2578,2579,2582,2584,2585,2587,2588,2590,2593,2596},dvars{cmd},pointers{},cfuncs{pthread_join{1},virCommandFree{1},VIR_FREE{1},virThreadJoin{1},VIR_FORCE_CLOSE{1},virCommandAddArgFormat{1},virCommandAbort{1},virCommandAddArg{1}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskCreateVol,startOffset,def{630},use{330,334,335,649,655,1371,1380,1388},dvars{ret},pointers{},cfuncs{VIR_RESIZE_N{3},VIR_RESIZE_N{2},VIR_RESIZE_N{1},virVasprintf{3},virVasprintf{2},virVasprintf{1},virCommandAddArgFormat{3}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskCreateVol,partFormat,def{629},use{644,647,678,1304,1311},dvars{},pointers{},cfuncs{VIR_FREE{1},virCommandAddArg{2}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskCreateVol,res,def{628,675},use{675,680},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskCreateVol,vol,def{626},use{637,644,651,669,672},dvars{},pointers{},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskCreateVol,endOffset,def{630},use{330,334,335,650,656,1371,1380,1388},dvars{ret},pointers{},cfuncs{VIR_RESIZE_N{3},VIR_RESIZE_N{2},VIR_RESIZE_N{1},virVasprintf{3},virVasprintf{2},virVasprintf{1},virCommandAddArgFormat{3}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskCreateVol,pool,def{625,666},use{632,644,649,665,666,672,837,843,844,1304,1311},dvars{},pointers{},cfuncs{virCommandAddArg{2},VIR_FREE{1},virCommandNewArgList{2}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskCreateVol,ATTRIBUTE_UNUSED,def{624},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartTypeToCreate,count,def{441},use{442,445,448},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartTypeToCreate,i,def{440},use{442},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskPartTypeToCreate,pool,def{435},use{437,442,443,444},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskMakeDataVol,tmp,def{50,69},use{70},dvars{},pointers{groups},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskMakeDataVol,devpath,def{50},use{75,84,85,1430,1493,1513},dvars{vol},pointers{},cfuncs{VIR_STRDUP{2},VIR_FREE{1},virStorageBackendStablePath{2}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskMakeDataVol,vol,def{48,84,101,128,130,132,134,136,140},use{49,51,52,53,57,61,64,65,66,67,70,74,86,90,92,94,96,97,98,101,104,111,117,123,144,145,146,297,301,304,305,307,308,310,312,313,314,315,316,317,318,319,320,321,322},dvars{pool},pointers{},cfuncs{virStorageEncryptionFree{1},virBitmapFree{1},virStorageEncryptionSecretFree{1},VIR_FREE{1},virStorageVolDefFree{1}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskMakeDataVol,groups,def{47},use{69,70,75,103,110,127,129,131,143},dvars{},pointers{},cfuncs{strrchr{1}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskMakeDataVol,pool,def{46,64,146},use{58,59,84,118,144,145,1433,1460,1481,1489,1494,1506},dvars{NULLdent,vol},pointers{},cfuncs{closedir{1},virStorageBackendStablePath{1}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskBuildPool,check,def{398,400},use{402,404},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskBuildPool,cmd,def{382,415},use{169,244,246,422,426,2025,2045,2073,2091,2115,2130,2136,2383,2546,2549,2552,2553,2556,2557,2558,2560,2561,2562,2564,2565,2566,2568,2569,2570,2572,2574,2578,2579,2582,2584,2585,2587,2588,2590,2593,2596},dvars{string_io,cmd,ret},pointers{},cfuncs{errbuf ? NULLSTR{2},pthread_join{1},virCommandFree{1},VIR_FREE{1},VIR_FORCE_CLOSE{1},virThreadJoin{1},VIR_DEBUG{2},virCommandAbort{1},virCommandRun{1}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskBuildPool,flags,def{378},use{387,395},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskBuildPool,ok_to_mklabel,def{380,396,403},use{413},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskBuildPool,pool,def{377},use{352,357,362,367,401,416,419,420,837,843,844,1304,1311,1559,1561,1571},dvars{cmd,check},pointers{},cfuncs{virCommandSetOutputBuffer{2},virCommandAddArg{2},VIR_FREE{1}, ? "msdos" :
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskBuildPool,ret,def{381,422},use{385,427},dvars{},pointers{},cfuncs{virCheckFlags{2}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskBuildPool,ATTRIBUTE_UNUSED,def{376},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskFindLabel,ret,def{353,360,363},use{361,363,368},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskFindLabel,args,def{348},use{355,1419,1426,1431,1441,1444},dvars{},pointers{device},cfuncs{virCommandAddArgSet{2}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskFindLabel,output,def{352},use{357,362,367,1559,1561,1571},dvars{cmd},pointers{outactual,migrate,output,outbuf,serial,pool,key,help},cfuncs{VIR_FREE{1},virCommandSetOutputBuffer{2}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskFindLabel,cmd,def{351},use{169,244,246,355,356,357,360,366,1121,1127,1130,1131,1132,1138,1139,1144,1200,1204,1208,1212,1419,1423,1427,1435,1436,1445,1448,1559,1562,1565,1566,1571,1572,2025,2045,2073,2091,2115,2130,2136,2383,2546,2549,2552,2553,2556,2557,2558,2560,2561,2562,2564,2565,2566,2568,2569,2570,2572,2574,2578,2579,2582,2584,2585,2587,2588,2590,2593,2596},dvars{namelen,string_io,cmd,ret},pointers{},cfuncs{pthread_join{1},VIR_FORCE_CLOSE{1},virThreadJoin{1},strcspn{1},virCommandRun{1},virCommandAddEnv{1},errbuf ? NULLSTR{2},VIR_DEBUG{2},virCommandSetOutputBuffer{1},virCommandAddEnvString{1},VIR_FREE{1},virCommandFree{1},virCommandAbort{1},virCommandAddArgSet{1}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskFindLabel,device,def{346},use{349},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskMakePoolGeometry,retpool,def{289},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskMakePoolGeometry,groups,def{285},use{289,290,291},dvars{pool,retpool},pointers{},cfuncs{atoi{1}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskMakePoolGeometry,ATTRIBUTE_UNUSED,def{284,286},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskMakePoolGeometry,pool,def{283,290,291},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskReadPartitions,ret,def{269,273},use{279},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskReadPartitions,vol,def{257},use{277,1670,1710,1716},dvars{ret},pointers{},cfuncs{virStorageBackendRunProgNul{5}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskReadPartitions,cmd,def{266},use{99,102,103,104,111,119,169,244,246,274,278,1702,1705,2383,2546,2549,2552,2553,2556,2557,2558,2560,2561,2562,2564,2565,2566,2568,2569,2570,2572,2574,2578,2579,2582,2584,2585,2587,2588,2590,2593,2596},dvars{n,new_lineptr,ret},pointers{},cfuncs{getdelim{2},pthread_join{1},virCommandAbort{1},VIR_FORCE_CLOSE{1},virThreadJoin{1},virCommandFree{1},VIR_FREE{1},realloc {2},virStorageBackendRunProgNul{2}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskReadPartitions,pool,def{256,271},use{267,273,837,843,844,1304,1311,1761},dvars{ret},pointers{},cfuncs{virCommandAddArg{2},virStorageBackendRunProgNul{1},virCommandNewArgList{2}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskRefreshPool,pool,def{316,319},use{318,319,323,326,330,334},dvars{},pointers{},cfuncs{virReportError{2},VIR_FREE{1}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskRefreshPool,ATTRIBUTE_UNUSED,def{315},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskMakeVol,vol,def{219},use{221,223,224,233},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskMakeVol,data,def{202},use{219},dvars{vol},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskMakeVol,groups,def{201},use{211,212,213,217,218,224,226,233,234,236},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskMakeVol,ATTRIBUTE_UNUSED,def{200},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskMakeVol,pool,def{199},use{226,233,236},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskReadGeometry,ret,def{303,305},use{311},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskReadGeometry,cmd,def{299},use{99,102,103,104,111,119,169,244,246,306,310,1702,1705,2383,2546,2549,2552,2553,2556,2557,2558,2560,2561,2562,2564,2565,2566,2568,2569,2570,2572,2574,2578,2579,2582,2584,2585,2587,2588,2590,2593,2596},dvars{n,new_lineptr,ret},pointers{},cfuncs{getdelim{2},pthread_join{1},virCommandAbort{1},VIR_FORCE_CLOSE{1},virThreadJoin{1},virCommandFree{1},VIR_FREE{1},realloc {2},virStorageBackendRunProgNul{2}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskReadGeometry,pool,def{297},use{300,305,837,843,844,1304,1311,1761},dvars{ret},pointers{},cfuncs{virCommandAddArg{2},virStorageBackendRunProgNul{1},virCommandNewArgList{2}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskMakeFreeExtent,dev,def{155,167,169,183},use{157,158,161,162,163,174,178,182,187,188,189,190,192},dvars{pool},pointers{},cfuncs{memset{4},memset{1}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskMakeFreeExtent,groups,def{153},use{166,173,177},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskMakeFreeExtent,pool,def{152,190},use{155,186,189},dvars{dev},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskDeleteVol,rc,def{710,760},use{760,764},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskDeleteVol,isDevMapperDevice,def{709,725},use{727,734},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskDeleteVol,srcname,def{707,722},use{723,727,735,749},dvars{cmd},pointers{pool},cfuncs{strlen{1},VIR_DEBUG{3}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskDeleteVol,devpath,def{706},use{30,32,714,721,725,735,754,762,1458},dvars{cmd,part_num,isDevMapperDevice},pointers{},cfuncs{VIR_FREE{1},virCommandNewArgList{4},virIsDevMapperDevice{1},FILE_SYSTEM_PREFIX_LEN {1},last_component{1}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskDeleteVol,part_num,def{705,735},use{737,749},dvars{cmd},pointers{srcname,dev_name},cfuncs{virCommandNewArgList{5}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskDeleteVol,vol,def{702},use{714,717},dvars{},pointers{},cfuncs{virReportSystemError{2}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskDeleteVol,pool,def{701},use{30,32,722,735,746,837,843,844,1304,1311},dvars{cmd,part_num},pointers{},cfuncs{virCommandAddArg{2},virCommandNewArgList{2},FILE_SYSTEM_PREFIX_LEN {1},last_component{1}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskDeleteVol,cmd,def{708,745,754},use{169,244,246,751,756,763,2383,2546,2549,2552,2553,2556,2557,2558,2560,2561,2562,2564,2565,2566,2568,2569,2570,2572,2574,2578,2579,2582,2584,2585,2587,2588,2590,2593,2596},dvars{},pointers{},cfuncs{pthread_join{1},virCommandAbort{1},virCommandFree{1},VIR_FREE{1},VIR_FORCE_CLOSE{1},virThreadJoin{1}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskDeleteVol,flags,def{703},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskDeleteVol,dev_name,def{707,721},use{723,727,730,735,740},dvars{},pointers{devpath},cfuncs{virReportError{2},VIR_DEBUG{2}}
+libvirt-1.1.0/src/storage/storage_backend_disk.c,virStorageBackendDiskDeleteVol,ATTRIBUTE_UNUSED,def{700},use{},dvars{},pointers{},cfuncs{}

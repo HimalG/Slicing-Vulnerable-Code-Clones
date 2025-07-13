@@ -1,0 +1,13 @@
+libvirt-1.1.0/src/datatypes.h,GLOBAL,usageID,def{337},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/datatypes.h,GLOBAL,usageType,def{336},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/datatypes.h,GLOBAL,key,def{329},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/datatypes.h,GLOBAL,pool,def{327},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/datatypes.h,GLOBAL,conn,def{312,315,318,321,326,332,334,338,339},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/datatypes.h,GLOBAL,freeFunc,def{325,331},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/datatypes.h,GLOBAL,privateData,def{324,330},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/datatypes.h,GLOBAL,domain,def{342},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/datatypes.h,GLOBAL,mac,def{320},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/datatypes.h,GLOBAL,uuid,def{314,317,323,335,341},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/datatypes.h,GLOBAL,opaque,def{266,267},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/datatypes.h,GLOBAL,name,def{313,316,319,322,328,333,340,343},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/datatypes.h,GLOBAL,,def{43,46,48,51,53,56,58,61,63,66,68,71,73,76,78,81,83,86,88,91,93,266,267,311},use{},dvars{},pointers{},cfuncs{}

@@ -1,0 +1,75 @@
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileRelease,pidfile,def{502,509},use{475,485,491,514,517},dvars{rc},pointers{name,dir},cfuncs{VIR_FORCE_CLOSE{1},VIR_FREE{1},virPidFileReleasePath{1}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileRelease,rc,def{501,505,510,514},use{518},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileRelease,fd,def{499},use{514},dvars{rc},pointers{},cfuncs{virPidFileReleasePath{2}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileRelease,name,def{498},use{504,509,514},dvars{rc},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileRelease,dir,def{497},use{504,509},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReleasePath,rc,def{477,487,490},use{493},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReleasePath,fd,def{475},use{485,491},dvars{},pointers{},cfuncs{VIR_FORCE_CLOSE{1}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReleasePath,path,def{474},use{486,489},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileAcquire,pidfile,def{454,461},use{377,385,392,396,400,404,408,412,423,432,438,442,445,466,469},dvars{rc},pointers{name,dir},cfuncs{VIR_FORCE_CLOSE{1},VIR_FREE{1},virPidFileAcquirePath{1}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileAcquire,rc,def{453,457,462,466},use{470},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileAcquire,pid,def{451},use{41,45,46,375,436,466},dvars{len,rc},pointers{},cfuncs{vasnprintf {2},snprintf{2},virPidFileAcquirePath{2}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileAcquire,name,def{450},use{456,461,466},dvars{rc},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileAcquire,dir,def{449},use{456,461},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadIfAlive,rc,def{319,323,328,332},use{336},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadIfAlive,pidfile,def{320,327},use{216,278,281,286,332,335},dvars{ret,rc},pointers{name,dir},cfuncs{STREQ{2},VIR_FREE{1},virPidFileReadPathIfAlive{1}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadIfAlive,pid,def{316},use{207,222,291,332},dvars{rc},pointers{radvdpidbase,obj,pid},cfuncs{virPidFileReadPathIfAlive{2}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadIfAlive,name,def{315},use{322,327,332},dvars{rc},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadIfAlive,binpath,def{317},use{208,237,254,276,332},dvars{ret,rc},pointers{obj,binpath},cfuncs{virPidFileReadPathIfAlive{3}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadIfAlive,dir,def{314},use{322,327},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileRead,rcpid,def{165},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileRead,name,def{160},use{167,172,177},dvars{rc},pointers{network},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileRead,pid,def{161},use{117,126,148,165,177},dvars{rc},pointers{},cfuncs{virPidFileReadPath{2}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileRead,pidfile,def{164,172},use{119,128,133,136,152,177,180,922,926},dvars{bytes,rc},pointers{name,dir},cfuncs{read{1},VIR_FORCE_CLOSE{1},saferead{1},VIR_FREE{1},virPidFileReadPath{1}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileRead,rc,def{163,168,173,177},use{181},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileRead,dir,def{159},use{167,172},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPath,rcpid,def{126},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPath,endptr,def{124},use{141,142},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPath,pidstr,def{123,139},use{133,139,141,922,924,926,932,933,935,937},dvars{nreadbuf,bytes},pointers{},cfuncs{read{2},saferead{4},saferead{2}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPath,pid_value,def{122},use{141,143,148},dvars{pid},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPath,bytes,def{121,133},use{134},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPath,rc,def{120,129,135,144,149,153},use{144,149,155},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPath,fd,def{119,128},use{133,136,152,922,926},dvars{bytes},pointers{},cfuncs{read{1},VIR_FORCE_CLOSE{1},saferead{1}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPath,pid,def{117,148},use{126},dvars{},pointers{virip_pid,pid},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPath,path,def{116},use{128},dvars{fd},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileWritePath,NULLpidfilefd,def{61},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileWritePath,fd,def{58},use{70,72,79},dvars{},pointers{},cfuncs{VIR_FORCE_CLOSE{1}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileWritePath,rc,def{57,64,71,76,80},use{76,82},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileWritePath,pidstr,def{59},use{42,44,45,47,56,57,68,70},dvars{},pointers{},cfuncs{va_end {1},vasnprintf {4},va_start {1},memcpy {3},snprintf{3},snprintf{1}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileWritePath,pid,def{55},use{41,45,46,68},dvars{len},pointers{},cfuncs{vasnprintf {2},snprintf{2}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileWritePath,pidfile,def{54},use{61},dvars{NULLpidfilefd},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileWrite,pidfile,def{91,103},use{58,70,72,79,108,111},dvars{rc},pointers{name,dir},cfuncs{VIR_FORCE_CLOSE{1},VIR_FREE{1},virPidFileWritePath{1}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileWrite,rc,def{90,94,99,104,108},use{112},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileWrite,pid,def{88},use{41,45,46,55,68,108},dvars{len,rc},pointers{},cfuncs{snprintf{2},vasnprintf {2},virPidFileWritePath{2}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileWrite,name,def{87},use{93,103,108},dvars{rc},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileWrite,dir,def{86},use{93,98,103},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileBuildPath,pidfile,def{45},use{47,50},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileBuildPath,name,def{43},use{47},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileBuildPath,dir,def{43},use{47},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPathIfAlive,retPid,def{219,232},use{224,230,232,245,291},dvars{pid,ret},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPathIfAlive,resolvedProcLink,def{216},use{278,281,286},dvars{ret},pointers{pidfile},cfuncs{VIR_FREE{1},STREQ{2}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPathIfAlive,deletedText,def{217},use{218},dvars{},pointers{},cfuncs{strlen{1}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPathIfAlive,procLinkLen,def{214,272},use{273},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPathIfAlive,procLink,def{213,268,274},use{272,274,278,285},dvars{ret,procLinkLen},pointers{procPath},cfuncs{VIR_FREE{1},strlen{1}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPathIfAlive,deletedTextLen,def{218},use{273},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPathIfAlive,procPath,def{212},use{245,250,254,268,272,278,284},dvars{procLinkLen,ret},pointers{},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPathIfAlive,resolvedBinPath,def{215},use{276,281,287},dvars{ret},pointers{},cfuncs{VIR_FREE{1},STREQ{1}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPathIfAlive,rcpid,def{222},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPathIfAlive,isLink,def{211,252},use{254},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPathIfAlive,ret,def{210,224,231,241,246,250,258,269,276,278,281},use{231,241,252,258,290,292},dvars{isLink},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPathIfAlive,binPath,def{208},use{237,254,276},dvars{ret},pointers{obj,binpath},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPathIfAlive,pid,def{207,291},use{222},dvars{},pointers{obj,pid},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileReadPathIfAlive,path,def{206},use{224},dvars{ret},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileAcquirePath,ATTRIBUTE_UNUSED,def{420},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileAcquirePath,b,def{384},use{400,428},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileAcquirePath,a,def{384},use{419,428},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileAcquirePath,fd,def{377,385},use{392,396,400,404,408,412,423,432,438,442,445},dvars{},pointers{},cfuncs{VIR_FORCE_CLOSE{1}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileAcquirePath,pidstr,def{378},use{42,44,45,47,56,57,436,438},dvars{},pointers{},cfuncs{va_end {1},vasnprintf {4},va_start {1},memcpy {3},snprintf{3},snprintf{1}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileAcquirePath,pid,def{375},use{41,45,46,436},dvars{len},pointers{},cfuncs{vasnprintf {2},snprintf{2}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileAcquirePath,path,def{374},use{380,385,388,395,403,411,419,422,431,441},dvars{fd},pointers{},cfuncs{VIR_DEBUG{2},virReportSystemError{2}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileDelete,pidfile,def{355,362},use{340,344,367,370},dvars{rc},pointers{driver,name,dir},cfuncs{VIR_FREE{1},virPidFileDeletePath{1}}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileDelete,rc,def{354,358,363,367},use{371},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileDelete,name,def{352},use{357,362,367},dvars{rc},pointers{name,radvdpidbase},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileDelete,dir,def{351},use{357,362},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileDeletePath,rc,def{342,345},use{347},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virpidfile.c,virPidFileDeletePath,pidfile,def{340},use{344},dvars{},pointers{pidfile},cfuncs{}

@@ -1,0 +1,15 @@
+libvirt-1.1.0/src/conf/device_conf.c,virDevicePCIAddressEqual,addr2,def{135},use{137,138,139,140},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/device_conf.c,virDevicePCIAddressEqual,addr1,def{134},use{137,138,139,140},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/device_conf.c,virDevicePCIAddressParseXML,ret,def{55,107},use{107,115},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/device_conf.c,virDevicePCIAddressParseXML,multi,def{54,63},use{94,97,114},dvars{multiaddrmulti},pointers{node},cfuncs{VIR_FREE{1},virReportError{2}}
+libvirt-1.1.0/src/conf/device_conf.c,virDevicePCIAddressParseXML,bus,def{54,60},use{72,73,111},dvars{},pointers{node},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/src/conf/device_conf.c,virDevicePCIAddressParseXML,slot,def{54,61},use{79,80,112},dvars{},pointers{node},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/src/conf/device_conf.c,virDevicePCIAddressParseXML,multiaddrmulti,def{94},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/device_conf.c,virDevicePCIAddressParseXML,domain,def{54,59},use{65,66,110},dvars{},pointers{node},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/src/conf/device_conf.c,virDevicePCIAddressParseXML,function,def{54,62},use{86,87,113},dvars{},pointers{node},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/src/conf/device_conf.c,virDevicePCIAddressParseXML,addr,def{52},use{57,66,73,80,87,101},dvars{},pointers{},cfuncs{memset{4},memset{1}}
+libvirt-1.1.0/src/conf/device_conf.c,virDevicePCIAddressParseXML,node,def{51},use{59,60,61,62,63,94,480},dvars{multiaddrmulti},pointers{},cfuncs{virXMLPropString{1}}
+libvirt-1.1.0/src/conf/device_conf.c,virDevicePCIAddressFormat,includeTypeInAddr,def{121},use{125,290},dvars{},pointers{},cfuncs{virBufferAsprintf{3}}
+libvirt-1.1.0/src/conf/device_conf.c,virDevicePCIAddressFormat,addr,def{120},use{126,127,128,129},dvars{},pointers{},cfuncs{virBufferAsprintf{7},virBufferAsprintf{6},virBufferAsprintf{5},virBufferAsprintf{4}}
+libvirt-1.1.0/src/conf/device_conf.c,virDevicePCIAddressFormat,buf,def{119},use{123,292,293,294,295},dvars{},pointers{},cfuncs{va_end{1},virBufferVasprintf{3},va_start{1},virBufferAsprintf{1}}
+libvirt-1.1.0/src/conf/device_conf.c,virDevicePCIAddressIsValid,addr,def{41},use{44,46},dvars{},pointers{},cfuncs{}

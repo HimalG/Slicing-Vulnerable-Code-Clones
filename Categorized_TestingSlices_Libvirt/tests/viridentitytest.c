@@ -1,0 +1,11 @@
+libvirt-1.1.0/tests/viridentitytest.c,mymain,ret,def{165,168,170},use{168,170,172},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/viridentitytest.c,mymain,,def{163},use{167,169,172},dvars{},pointers{},cfuncs{virtTestRun{4},virtTestRun{3}}
+libvirt-1.1.0/tests/viridentitytest.c,testIdentityEqual,retidenta,def{101},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/viridentitytest.c,testIdentityEqual,identb,def{99,103},use{106,116,121,126,135,140,145,150,158,254,256,258,259,260,262,263,266,271,272,273,274,338,343},dvars{klass,is_zero},pointers{},cfuncs{VIR_FREE{1},dispose{1},virAtomicIntDecAndTest{1},memset{3},memset{1},PROBE{3},virObjectUnref{1}}
+libvirt-1.1.0/tests/viridentitytest.c,testIdentityEqual,identa,def{98},use{106,111,116,126,131,140,150,157,254,256,258,259,260,262,263,266,271,272,273,274,338,343},dvars{klass,is_zero},pointers{},cfuncs{VIR_FREE{1},dispose{1},virAtomicIntDecAndTest{1},memset{3},memset{1},PROBE{3},virObjectUnref{1}}
+libvirt-1.1.0/tests/viridentitytest.c,testIdentityEqual,ret,def{97,155},use{155,159},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/viridentitytest.c,testIdentityEqual,ATTRIBUTE_UNUSED,def{95},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/viridentitytest.c,testIdentityAttrs,val,def{41},use{53,56,57,63,66,80,83,84},dvars{},pointers{},cfuncs{NULLSTR{2}}
+libvirt-1.1.0/tests/viridentitytest.c,testIdentityAttrs,ident,def{40,43},use{46,51,61,71,78,90,254,256,258,259,260,262,263,266,271,272,273,274,338,343},dvars{klass,is_zero},pointers{},cfuncs{VIR_FREE{1},dispose{1},virAtomicIntDecAndTest{1},memset{3},memset{1},PROBE{3},virObjectUnref{1}}
+libvirt-1.1.0/tests/viridentitytest.c,testIdentityAttrs,ret,def{39,88},use{88,91},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/viridentitytest.c,testIdentityAttrs,ATTRIBUTE_UNUSED,def{37},use{},dvars{},pointers{},cfuncs{}

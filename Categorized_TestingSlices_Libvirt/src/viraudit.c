@@ -1,0 +1,19 @@
+libvirt-1.1.0/src/util/viraudit.c,virAuditEncode,value,def{149},use{152,155},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.c,virAuditEncode,str,def{154},use{155,157},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.c,virAuditEncode,key,def{149},use{152,155},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.c,virAuditClose,,def{142},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.c,virAuditSend,ebuf,def{133},use{135,186,188,190,192,210,212,213,215,229,232,234,1303,1306,1308,1309,1311},dvars{len,ret},pointers{},cfuncs{strlen {1},strerror_r {3},strerror_r {2},virStrerror{3},virStrerror{5},safe_copy {3},strerror_r{3}}
+libvirt-1.1.0/src/util/viraudit.c,virAuditSend,record_types,def{123},use{129,131},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.c,virAuditSend,args,def{86},use{98,99,103},dvars{},pointers{},cfuncs{va_end{1},va_start{1}}
+libvirt-1.1.0/src/util/viraudit.c,virAuditSend,,def{83},use{99,129,131,132,330,334,335},dvars{ret},pointers{},cfuncs{audit_log_user_message{7},audit_log_user_message{6},audit_log_user_message{5},audit_log_user_message{4},audit_log_user_message{3},audit_log_user_message{2},audit_log_user_message{1},ARRAY_CARDINALITY{1},virVasprintf{3},virVasprintf{2},virVasprintf{1}}
+libvirt-1.1.0/src/util/viraudit.c,virAuditSend,fmt,def{83},use{98,99},dvars{},pointers{},cfuncs{va_start{2}}
+libvirt-1.1.0/src/util/viraudit.c,virAuditSend,ATTRIBUTE_UNUSED,def{80,81,82},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.c,virAuditSend,funcname,def{79},use{108,112,346,699,716,767,774,799,840,878,896},dvars{ret},pointers{},cfuncs{virLogOutputToFd{5},virLogMessage{5},f{5},virLogFormatString{3},virAsprintf{3},virLogVMessage{5}}
+libvirt-1.1.0/src/util/viraudit.c,virAuditSend,linenr,def{78},use{108,112,330,334,346,351,352,702,716,720,766,774,798,840,878,896},dvars{ret},pointers{},cfuncs{virVasprintf{2},va_start{2},virAsprintf{2},virLogVMessage{4},virAsprintf{4},virLogOutputToFd{4},virLogMessage{4},f{4},virLogFormatString{2}}
+libvirt-1.1.0/src/util/viraudit.c,virAuditSend,str,def{85,101},use{99,105,109,113,118,122,131,135,137,769},dvars{},pointers{},cfuncs{NULLSTR{2},VIR_FREE{1},virLogMessage{8}}
+libvirt-1.1.0/src/util/viraudit.c,virAuditSend,success,def{82},use{106,132},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.c,virAuditSend,filename,def{77},use{108,112,594,602,765,774,797,822,878,896},dvars{fprio},pointers{},cfuncs{virLogOutputToFd{3},f{3},virLogFiltersCheck{1},virLogVMessage{3},virLogMessage{3}}
+libvirt-1.1.0/src/util/viraudit.c,virAuditLog,auditlog,def{73},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.c,virAuditLog,logging,def{71},use{73},dvars{auditlog},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.c,virAuditOpen,retauditfd,def{59},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viraudit.c,virAuditOpen,,def{56},use{60},dvars{},pointers{},cfuncs{}

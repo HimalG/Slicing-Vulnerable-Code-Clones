@@ -1,0 +1,15 @@
+libvirt-1.1.0/python/libvirt-lxc-override.c,initcygvirtmod_lxc,initialized,def{123,140},use{125,140},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/python/libvirt-lxc-override.c,initcygvirtmod_lxc,,def{121},use{133},dvars{},pointers{},cfuncs{Py_InitModule{1}}
+libvirt-1.1.0/python/libvirt-lxc-override.c,libvirt_lxc_virDomainLxcOpenNamespace,VIR_PY_NONEpy_retval,def{83},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/python/libvirt-lxc-override.c,libvirt_lxc_virDomainLxcOpenNamespace,NULLdomain,def{72},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/python/libvirt-lxc-override.c,libvirt_lxc_virDomainLxcOpenNamespace,fdlist,def{66},use{67,73,77,85,87,95,99,101},dvars{ret,c_retval},pointers{},cfuncs{domainLxcOpenNamespace{2},virCheckNonNullArgGoto{1},virDomainLxcOpenNamespace{2},VIR_DEBUG{3},VIR_FREE{1},VIR_FORCE_CLOSE{1}}
+libvirt-1.1.0/python/libvirt-lxc-override.c,libvirt_lxc_virDomainLxcOpenNamespace,flags,def{64},use{68,70,73,77,87,96},dvars{ret,c_retval},pointers{},cfuncs{domainLxcOpenNamespace{3},VIR_DEBUG{4},virDomainLxcOpenNamespace{3}}
+libvirt-1.1.0/python/libvirt-lxc-override.c,libvirt_lxc_virDomainLxcOpenNamespace,pyobj_domain,def{63},use{70,72},dvars{NULLdomain},pointers{},cfuncs{PyvirDomain_Get{1}}
+libvirt-1.1.0/python/libvirt-lxc-override.c,libvirt_lxc_virDomainLxcOpenNamespace,py_retval,def{61},use{90,95},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/python/libvirt-lxc-override.c,libvirt_lxc_virDomainLxcOpenNamespace,i,def{67},use{84,98},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/python/libvirt-lxc-override.c,libvirt_lxc_virDomainLxcOpenNamespace,c_retval,def{65,77},use{80,83,84,98},dvars{VIR_PY_NONEpy_retval},pointers{},cfuncs{PyList_New{1}}
+libvirt-1.1.0/python/libvirt-lxc-override.c,libvirt_lxc_virDomainLxcOpenNamespace,domain,def{62},use{70,74,77,83,87,92,94,102,105,581,598,605},dvars{ret,c_retval},pointers{},cfuncs{(handler){1},virDispatchError{1},virLibConnError{1},virDomainLxcOpenNamespace{1}}
+libvirt-1.1.0/python/libvirt-lxc-override.c,libvirt_lxc_virDomainLxcOpenNamespace,item,def{85,87},use{90,91},dvars{},pointers{fdlist},cfuncs{Py_DECREF{1}}
+libvirt-1.1.0/python/libvirt-lxc-override.c,libvirt_lxc_virDomainLxcOpenNamespace,args,def{60},use{69},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/python/libvirt-lxc-override.c,libvirt_lxc_virDomainLxcOpenNamespace,ATTRIBUTE_UNUSED,def{59},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/python/libvirt-lxc-override.c,GLOBAL,,def{28,30,38,41},use{},dvars{},pointers{},cfuncs{}

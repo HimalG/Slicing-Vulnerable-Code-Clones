@@ -1,0 +1,16 @@
+libvirt-1.1.0/gnulib/lib/wctype.in.h,rpl_towupper,wc,def{361},use{363,375,376,377,378,379,380,381,382,383,384,385,387,388,389,390,391,392,393,394,395,396,397,413,415,447,449,460,461,463,464,496,498},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/wctype.in.h,towupper,wc,def{317},use{319,329,331},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/wctype.in.h,towlower,wc,def{306},use{308},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/wctype.in.h,iswxdigit,wc,def{294},use{296,297},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/wctype.in.h,iswupper,wc,def{283},use{285},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/wctype.in.h,iswlower,wc,def{236},use{238},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/wctype.in.h,iswdigit,wc,def{214},use{216},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/wctype.in.h,rpl_towlower,wc,def{352},use{354},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/wctype.in.h,iswblank,wc,def{192},use{194},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/wctype.in.h,iswalpha,wc,def{181},use{183},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/wctype.in.h,iswgraph,wc,def{225},use{227},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/wctype.in.h,iswcntrl,wc,def{203},use{205},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/wctype.in.h,iswpunct,wc,def{258},use{260,261,262},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/wctype.in.h,iswalnum,wc,def{169},use{171,172},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/wctype.in.h,iswspace,wc,def{271},use{273,274},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/wctype.in.h,iswprint,wc,def{247},use{249},dvars{},pointers{},cfuncs{}

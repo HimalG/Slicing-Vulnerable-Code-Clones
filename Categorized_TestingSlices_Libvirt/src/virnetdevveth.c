@@ -1,0 +1,13 @@
+libvirt-1.1.0/src/util/virnetdevveth.c,virNetDevVethDelete,argv,def{168},use{172},dvars{},pointers{veth},cfuncs{}
+libvirt-1.1.0/src/util/virnetdevveth.c,virNetDevVethDelete,veth,def{166},use{168,170},dvars{},pointers{},cfuncs{VIR_DEBUG{2}}
+libvirt-1.1.0/src/util/virnetdevveth.c,virNetDevVethCreate,veth2_alloc,def{108,136},use{144},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetdevveth.c,virNetDevVethCreate,veth1_alloc,def{107,116},use{123,142},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetdevveth.c,virNetDevVethCreate,vethDev,def{106,113,122},use{117,130},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetdevveth.c,virNetDevVethCreate,veth1,def{100},use{110,112,113,115,119,124,129,140,143},dvars{argv,vethDev},pointers{},cfuncs{VIR_FREE{1},VIR_DEBUG{2},NULLSTR{2}}
+libvirt-1.1.0/src/util/virnetdevveth.c,virNetDevVethCreate,rc,def{102,149},use{149,152},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetdevveth.c,virNetDevVethCreate,veth2,def{100},use{110,121,122,129,131,135,138,140,145},dvars{argv,vethDev},pointers{},cfuncs{VIR_DEBUG{3},VIR_DEBUG{2},VIR_FREE{1},NULLSTR{2}}
+libvirt-1.1.0/src/util/virnetdevveth.c,virNetDevVethCreate,argv,def{103,119,138},use{141},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetdevveth.c,virNetDevVethGetFreeName,path,def{53},use{57,59,63,64,65},dvars{},pointers{},cfuncs{VIR_DEBUG{2},VIR_FREE{1}}
+libvirt-1.1.0/src/util/virnetdevveth.c,virNetDevVethGetFreeName,startDev,def{50},use{52,55},dvars{devNum},pointers{},cfuncs{VIR_DEBUG{2}}
+libvirt-1.1.0/src/util/virnetdevveth.c,virNetDevVethGetFreeName,devNum,def{52},use{58,59,67,72},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnetdevveth.c,virNetDevVethGetFreeName,veth,def{50},use{67},dvars{},pointers{},cfuncs{}

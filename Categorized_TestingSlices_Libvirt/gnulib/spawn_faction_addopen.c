@@ -1,0 +1,9 @@
+libvirt-1.1.0/gnulib/tests/spawn_faction_addopen.c,posix_spawn_file_actions_addopen,ENOMEMrec,def{60},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/tests/spawn_faction_addopen.c,posix_spawn_file_actions_addopen,rec,def{57,61,62,63,64,65},use{},dvars{},pointers{mode,oflag,path,fd},cfuncs{}
+libvirt-1.1.0/gnulib/tests/spawn_faction_addopen.c,posix_spawn_file_actions_addopen,mode,def{38},use{48,65},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/tests/spawn_faction_addopen.c,posix_spawn_file_actions_addopen,fd,def{37},use{44,48,62},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/tests/spawn_faction_addopen.c,posix_spawn_file_actions_addopen,maxfd,def{41},use{44},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/tests/spawn_faction_addopen.c,posix_spawn_file_actions_addopen,oflag,def{37},use{48,64},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/tests/spawn_faction_addopen.c,posix_spawn_file_actions_addopen,path,def{37},use{48,63},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/tests/spawn_faction_addopen.c,posix_spawn_file_actions_addopen,file_actions,def{36},use{48,51,52,60,68},dvars{ENOMEMrec},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/tests/spawn_faction_addopen.c,GLOBAL,,def{26},use{},dvars{},pointers{},cfuncs{}

@@ -1,0 +1,10 @@
+libvirt-1.1.0/src/util/viriptables.h,GLOBAL,addr,def{110,117},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viriptables.h,GLOBAL,prefix,def{54,59,65,70,76,81,108,115},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viriptables.h,GLOBAL,netaddr,def{53,58,64,69,75,80,107,114},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viriptables.h,GLOBAL,family,def{35,39,44,48,86,89,93,96,100,103},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viriptables.h,GLOBAL,ctx,def{32,34,38,43,47,52,57,63,68,74,79,85,88,92,95,99,102,106,113,120,123},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viriptables.h,GLOBAL,port,def{37,41,46,50,111,118,122,125},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viriptables.h,GLOBAL,protocol,def{112,119},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viriptables.h,GLOBAL,iface,def{36,40,45,49,55,60,66,71,77,82,87,90,94,97,101,104,121,124},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viriptables.h,GLOBAL,physdev,def{56,61,67,72,78,83,109,116},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viriptables.h,GLOBAL,,def{31},use{},dvars{},pointers{},cfuncs{}

@@ -1,0 +1,49 @@
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_EscapeForXml,buffer,def{500},use{243,245,290,369,385,391,437,438,502,504,506,511},dvars{},pointers{},cfuncs{virBufferAsprintf{3},VIR_FREE{1},virBufferFreeAndReset{1},virBufferEscapeString{1}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_EscapeForXml,string,def{498},use{290,366,372,378,379,380,390,502},dvars{len},pointers{},cfuncs{virBufferAsprintf{3},strlen{1},virBufferEscapeString{3}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_EscapeDatastoreItem,escaped2,def{473,486},use{492},dvars{},pointers{escaped1},cfuncs{}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_EscapeDatastoreItem,escaped1,def{472,480},use{378,389,402,482,486,490},dvars{length},pointers{unescapedDirectoryAndFileName,unescapedDirectoryName,escaped1,replaced},cfuncs{VIR_FREE{1},esxUtil_EscapeBase64{1}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_EscapeDatastoreItem,replaced,def{471},use{449,452,453,456,460,461,475,478,480,486,489},dvars{length,escaped2},pointers{},cfuncs{strspn{1},VIR_FREE{1},virVMXEscapeHexPercent{1},esxUtil_ReplaceSpecialWindowsPathChars{1}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_EscapeDatastoreItem,string,def{469},use{475},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ReformatUuid,uuid,def{361},use{42,44,45,47,209,211,217,218,363,370},dvars{},pointers{},cfuncs{va_end {1},vasnprintf {4},snprintf{1},va_start {1},virUUIDFormat{1}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ReformatUuid,output,def{359},use{370},dvars{},pointers{},cfuncs{virUUIDFormat{2}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ReformatUuid,input,def{359},use{363,366},dvars{},pointers{},cfuncs{virReportError{2}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ReplaceSpecialWindowsPathChars,specials,def{447},use{453},dvars{length},pointers{},cfuncs{strspn{2}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ReplaceSpecialWindowsPathChars,length,def{450,453},use{455,457},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ReplaceSpecialWindowsPathChars,tmp,def{449,456},use{452,453,456,460,461},dvars{length},pointers{replaced,string},cfuncs{strspn{1}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ReplaceSpecialWindowsPathChars,string,def{444},use{449},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseDatastorePath,preliminaryDirectoryAndFileName,def{231,258,261},use{260,263,264,268,274,280},dvars{tmp},pointers{},cfuncs{strrchr{1},strspn{1}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseDatastorePath,saveptr,def{229},use{246,258},dvars{preliminaryDirectoryAndFileName,tmp},pointers{},cfuncs{strtok_r{3}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseDatastorePath,copyOfDatastorePath,def{227},use{240,245,302},dvars{},pointers{},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseDatastorePath,preliminaryDatastoreName,def{230},use{246,254},dvars{tmp},pointers{},cfuncs{}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseDatastorePath,directoryName,def{224},use{234,272,280,293,294},dvars{},pointers{},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseDatastorePath,datastoreName,def{223},use{233,253,254,289,290},dvars{},pointers{},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseDatastorePath,result,def{226,285},use{285,288,304},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseDatastorePath,directoryAndFileName,def{224},use{235,267,268,297,298},dvars{},pointers{},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseDatastorePath,tmp,def{228,245,274,277},use{276,277},dvars{},pointers{copyOfDatastorePath},cfuncs{}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseDatastorePath,datastorePath,def{223},use{240,249},dvars{},pointers{},cfuncs{virReportError{2}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ResolveHostname,errcode,def{315,324,340},use{80,84,326,329,336,343,346},dvars{},pointers{},cfuncs{gai_strerror{3}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ResolveHostname,result,def{314},use{135,157,324,329,333,340,347,348,350,351,353,354,359,366,376,379,383,389,399,404,413,425,435},dvars{errcode},pointers{},cfuncs{ntohs {1},free {1},freeaddrinfo{1},getnameinfo{2},getnameinfo{1},getaddrinfo{4}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ResolveHostname,ipAddress_length,def{311},use{341,360,366,371,397,405,414},dvars{errcode},pointers{},cfuncs{getnameinfo{4}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ResolveHostname,hostname,def{310},use{292,294,296,298,324,328,335,345},dvars{errcode},pointers{},cfuncs{strdup {1},virReportError{2},getaddrinfo{1}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ResolveHostname,ipAddress,def{311},use{340,360,366,371,397,405,414},dvars{errcode},pointers{},cfuncs{getnameinfo{3}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ResolveHostname,hints,def{313,319,320,321,322},use{241,245,247,253,255,256,265,269,271,277,279,280,317,322,324},dvars{tmp,errcode},pointers{},cfuncs{memcpy {3},memcpy {1},getaddrinfo{3},memset{4},memset{1}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_FreeParsedUri,parsedUri,def{183},use{185,189,190,191,192,194},dvars{},pointers{priv,parsedUri},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_EscapeBase64,c3,def{391,409},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_EscapeBase64,c1,def{391,407},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_EscapeBase64,length,def{390,395,402},use{151,153,156,157,163,168,170,397,398,400,406,408,409,414,418,422},dvars{needSize,c3,c2},pointers{},cfuncs{memset{3},virBufferAdd{3}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_EscapeBase64,string,def{378},use{389,402},dvars{length},pointers{escaped1},cfuncs{}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_EscapeBase64,tmp1,def{389},use{148,153,161,169,394,395,398,400,402,407,408,409,425},dvars{c1,len,length},pointers{string},cfuncs{strlen{1},strcspn{1},memcpy{2},virBufferAdd{2},strspn{1}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_EscapeBase64,c2,def{391,408},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_EscapeBase64,buffer,def{388},use{98,100,102,104,148,153,156,163,164,165,168,169,170,171,183,185,243,245,398,404,411,412,415,419,426,431,433,438},dvars{needSize,indent},pointers{},cfuncs{memset{1},VIR_FREE{1},virBufferFreeAndReset{1},virBufferAddChar{1},virBufferGetIndent{1},memcpy{1},virBufferAdd{1}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_EscapeBase64,base64,def{385},use{148,153,161,169,183,185,411,412,415,419},dvars{len},pointers{},cfuncs{strlen{1},memcpy{2},virBufferAdd{2},virBufferAddChar{2}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_EscapeBase64,normal,def{381},use{395,402},dvars{length},pointers{},cfuncs{strcspn{2},strspn{2}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseUri,queryParam,def{63},use{65,68,79,82,84,85,89,94,95,99,104,111,113,114,116,118,120,126,129,158},dvars{},pointers{},cfuncs{VIR_WARN{2},virReportError{2}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseUri,tmp,def{50,111,113,116,118,120,121,129,135,143},use{121,132,136,143,145,152},dvars{},pointers{queryParam},cfuncs{virReportError{2}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseUri,autoAnswer,def{49},use{95,96,103},dvars{parsedUri},pointers{},cfuncs{}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseUri,result,def{46,169},use{169,172,176},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseUri,noVerify,def{48},use{85,86,93},dvars{parsedUri},pointers{},cfuncs{}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseUri,i,def{47},use{62},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseUri,uri,def{44},use{62,63,162},dvars{queryParam},pointers{},cfuncs{}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseUri,parsedUri,def{44,93,103,106,107,109,112,115,117,119},use{52,57,66,68,71,72,76,80,82,108,109,132,135,136,146,147,148,162,165,166,173,183,185,189,190,191,192,194},dvars{tmp},pointers{},cfuncs{esxUtil_FreeParsedUri{1},virReportError{2},VIR_FREE{1}}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseVirtualMachineIDString,id,def{200},use{203,212},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/esx/esx_util.c,esxUtil_ParseVirtualMachineIDString,id_string,def{200},use{203,211,212},dvars{},pointers{},cfuncs{}

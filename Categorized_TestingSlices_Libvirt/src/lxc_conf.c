@@ -1,0 +1,13 @@
+libvirt-1.1.0/src/lxc/lxc_conf.c,lxcLoadDriverConfig,virLXCDriverPrivateDataCallbacksNULLdriver,def{160},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/lxc/lxc_conf.c,lxcLoadDriverConfig,conf,def{157,180},use{139,143,144,145,146,147,158,160,162,163,164,165,166,167,168,181,192,196,200,205,209,216,804,808,809,811,812,813,814,815,816,833,837,840,843},dvars{NULLcur,next,p},pointers{},cfuncs{virConfFreeValue{1},virConfFreeList{1},VIR_FREE{1},virConfFree{1},virConfGetValue{1}}
+libvirt-1.1.0/src/lxc/lxc_conf.c,lxcLoadDriverConfig,filename,def{156},use{174,178,180,196,201,219,698,706,746,757,761,763},dvars{NULLlen,ret,NULLconf,ctxt,conf},pointers{},cfuncs{VIR_FREE{1},virConfCreate{2},virConfParse{2},virConfReadFile{1}}
+libvirt-1.1.0/src/lxc/lxc_conf.c,lxcLoadDriverConfig,p,def{158,192,196,205,209},use{194,198,199,207,211},dvars{driver},pointers{},cfuncs{}
+libvirt-1.1.0/src/lxc/lxc_conf.c,lxcLoadDriverConfig,driver,def{154,161,194,207,211},use{164,166,168,170,199},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/lxc/lxc_conf.c,lxcDomainXMLConfInit,,def{146},use{148,149,150,813,814,815,825,826,828,829,831,832,839,840,841,842,843},dvars{xmlopt},pointers{},cfuncs{virDomainXMLOptionNew{3},virDomainXMLOptionNew{2},virDomainXMLOptionNew{1}}
+libvirt-1.1.0/src/lxc/lxc_conf.c,lxcCapsInit,model,def{113,116},use{117,122,129},dvars{},pointers{driver},cfuncs{VIR_DEBUG{2}}
+libvirt-1.1.0/src/lxc/lxc_conf.c,lxcCapsInit,guest,def{49,74,93},use{83,102},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/lxc/lxc_conf.c,lxcCapsInit,qemuProcessAutoDestroycaps,def{52},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/lxc/lxc_conf.c,lxcCapsInit,altArch,def{50,92},use{95},dvars{guest},pointers{},cfuncs{}
+libvirt-1.1.0/src/lxc/lxc_conf.c,lxcCapsInit,doi,def{113,115},use{124,129},dvars{},pointers{driver},cfuncs{VIR_DEBUG{3}}
+libvirt-1.1.0/src/lxc/lxc_conf.c,lxcCapsInit,caps,def{48,121},use{60,61,65,68,74,76,92,93,119,121,122,124,134,140,254,256,258,259,260,262,263,266,271,272,273,274,338,343},dvars{klass,is_zero,altArch,guest},pointers{},cfuncs{VIR_FREE{1},memset{3},memset{1},virCapabilitiesFreeNUMAInfo{1},virAtomicIntDecAndTest{1},dispose{1},PROBE{3},virObjectUnref{1}}
+libvirt-1.1.0/src/lxc/lxc_conf.c,lxcCapsInit,driver,def{46},use{84,85,88,90,111,115,116,210,224,237,239,241,242,243,252,254,256,257,258,316,318,320,324,337,339,341,345},dvars{},pointers{},cfuncs{getDOI{1},pthread_mutex_unlock{1},virObjectUnlock{1},virMutexLock{1},VIR_WARN{3},VIR_WARN{2},getModel{1},virObjectLock{1},virMutexUnlock{1},pthread_mutex_lock{1},virSecurityManagerGetModel{1},virSecurityManagerGetDOI{1}}

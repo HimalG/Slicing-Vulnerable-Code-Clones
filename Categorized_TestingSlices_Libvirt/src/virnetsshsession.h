@@ -1,0 +1,16 @@
+libvirt-1.1.0/src/rpc/virnetsshsession.h,GLOBAL,len,def{80,84},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetsshsession.h,GLOBAL,buf,def{79,83},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetsshsession.h,GLOBAL,sock,def{76},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetsshsession.h,GLOBAL,password,def{54,62},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetsshsession.h,GLOBAL,hostsfile,def{71},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetsshsession.h,GLOBAL,tries,def{66},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetsshsession.h,GLOBAL,keyfile,def{61},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetsshsession.h,GLOBAL,hostname,def{69},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetsshsession.h,GLOBAL,command,def{45},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetsshsession.h,GLOBAL,username,def{53,57,60,65},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetsshsession.h,GLOBAL,flags,def{73},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetsshsession.h,GLOBAL,opt,def{72},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetsshsession.h,GLOBAL,auth,def{50},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetsshsession.h,GLOBAL,port,def{70},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetsshsession.h,GLOBAL,sess,def{31,44,47,49,52,56,59,64,68,75,78,82,86},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetsshsession.h,GLOBAL,,def{30},use{},dvars{},pointers{},cfuncs{}

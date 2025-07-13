@@ -1,0 +1,12 @@
+libvirt-1.1.0/src/util/virbitmap.h,GLOBAL,b2,def{88},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbitmap.h,GLOBAL,b1,def{88},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbitmap.h,GLOBAL,len,def{83},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbitmap.h,GLOBAL,dataLen,def{85},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbitmap.h,GLOBAL,pos,def{106,109},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbitmap.h,GLOBAL,sep,def{76},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbitmap.h,GLOBAL,bitmapSize,def{78},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbitmap.h,GLOBAL,str,def{75},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbitmap.h,GLOBAL,src,def{49,81},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbitmap.h,GLOBAL,dst,def{49},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbitmap.h,GLOBAL,data,def{83,85},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbitmap.h,GLOBAL,bitmap,def{43,72,77,85,91,94,97,100,103,106,109,112},use{},dvars{},pointers{},cfuncs{}

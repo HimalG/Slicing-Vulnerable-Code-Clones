@@ -1,0 +1,16 @@
+libvirt-1.1.0/tests/viruritest.c,mymain,params6,def{202},use{221},dvars{},pointers{},cfuncs{TEST_PARAMS{3}}
+libvirt-1.1.0/tests/viruritest.c,mymain,params5,def{197},use{219},dvars{},pointers{},cfuncs{TEST_PARAMS{3}}
+libvirt-1.1.0/tests/viruritest.c,mymain,params4,def{192},use{214,215,216,217},dvars{},pointers{},cfuncs{TEST_PARAMS{3}}
+libvirt-1.1.0/tests/viruritest.c,mymain,params3,def{186},use{212},dvars{},pointers{},cfuncs{TEST_PARAMS{3}}
+libvirt-1.1.0/tests/viruritest.c,mymain,params,def{162},use{170},dvars{},pointers{},cfuncs{TEST_PARSE{9}}
+libvirt-1.1.0/tests/viruritest.c,mymain,params2,def{180},use{208,209,210},dvars{},pointers{},cfuncs{TEST_PARAMS{3}}
+libvirt-1.1.0/tests/viruritest.c,mymain,params1,def{175},use{207},dvars{},pointers{},cfuncs{TEST_PARAMS{3}}
+libvirt-1.1.0/tests/viruritest.c,mymain,ret,def{141},use{223},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/viruritest.c,mymain,,def{139},use{223},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/viruritest.c,testURIParse,i,def{54},use{95,98,103,109,112,114},dvars{},pointers{},cfuncs{VIR_DEBUG{2}}
+libvirt-1.1.0/tests/viruritest.c,testURIParse,uristr,def{53,121},use{124,126,132},dvars{},pointers{uri},cfuncs{VIR_FREE{1},VIR_DEBUG{3}}
+libvirt-1.1.0/tests/viruritest.c,testURIParse,data,def{52},use{56,59,61,65,67,71,73,77,79,83,85,89,91,95,96,98,101,103,107,109,124,126},dvars{EXIT_SUCCESSEXIT_FAILUREuri},pointers{args},cfuncs{VIR_DEBUG{4},VIR_DEBUG{3},VIR_DEBUG{2}}
+libvirt-1.1.0/tests/viruritest.c,testURIParse,uri,def{51,119},use{56,59,61,65,67,71,73,77,79,83,85,89,91,95,96,98,100,101,102,103,104,112,114,118,119,121,133,148,153,156,163,164,165,168,169,170,171,183,185,243,245,282,288,289,290,295,296,301,310,314,317,318,319,320,321,322,324,325,326,328,330,531,538,541,544,553,558,561,562,563,567,640,646,647,649},dvars{indent,needSize,EXIT_SUCCESSEXIT_FAILUREuri},pointers{},cfuncs{memset{1},virBufferAddChar{1},virBufferGetIndent{1},va_start{1},memcpy{1},virBufferFreeAndReset{1},va_end{1},virBufferAddLit{1},virBufferStrcat{1},virBufferAdd{1},virURIFree{1},virURIFormatParams{1},virBufferURIEncodeString{1},VIR_FREE{1},VIR_DEBUG{4},VIR_DEBUG{3}}
+libvirt-1.1.0/tests/viruritest.c,testURIParse,EXIT_SUCCESSEXIT_FAILUREuri,def{56},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/viruritest.c,testURIParse,ret,def{50,130},use{130,134},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/viruritest.c,testURIParse,args,def{48},use{52,56},dvars{EXIT_SUCCESSEXIT_FAILUREuri},pointers{},cfuncs{}

@@ -1,0 +1,9 @@
+libvirt-1.1.0/src/vbox/vbox_driver.c,vboxRegister,uVersion,def{76},use{89,91,92,93,94,100,105,110,115,120,125,130,136},dvars{},pointers{},cfuncs{VIR_DEBUG{5},VIR_DEBUG{4},VIR_DEBUG{3},VIR_DEBUG{2}}
+libvirt-1.1.0/src/vbox/vbox_driver.c,vboxRegister,networkDriver,def{74,85,103,108,113,118,123,128,133},use{144},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/vbox/vbox_driver.c,vboxRegister,storageDriver,def{75,86,104,109,114,119,124,129,134},use{146},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/vbox/vbox_driver.c,vboxRegister,driver,def{73,84,102,107,112,117,122,127,132},use{142},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/vbox/vbox_driver.c,vboxRegister,,def{72},use{89,142,144,146,187,210,217,224,230},dvars{},pointers{},cfuncs{virRegisterNetworkDriver{1},virRegisterDriver{1},virRegisterStorageDriver{1},VBoxCGlueInit{1}}
+libvirt-1.1.0/src/vbox/vbox_driver.c,vboxConnectOpen,uid,def{156},use{172},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/vbox/vbox_driver.c,vboxConnectOpen,flags,def{154},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/vbox/vbox_driver.c,vboxConnectOpen,ATTRIBUTE_UNUSED,def{153},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/vbox/vbox_driver.c,vboxConnectOpen,conn,def{152},use{160,161,162,163,166,173,175,179,180,182},dvars{},pointers{},cfuncs{virReportError{2}}

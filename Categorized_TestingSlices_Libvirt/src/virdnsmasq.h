@@ -1,0 +1,15 @@
+libvirt-1.1.0/src/util/virdnsmasq.h,GLOBAL,,def{113,117},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virdnsmasq.h,GLOBAL,flag,def{104},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virdnsmasq.h,GLOBAL,dataPath,def{100},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virdnsmasq.h,GLOBAL,config_dir,def{83},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virdnsmasq.h,GLOBAL,buf,def{98},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virdnsmasq.h,GLOBAL,binaryPath,def{99,101,102,103},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virdnsmasq.h,GLOBAL,id,def{89},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virdnsmasq.h,GLOBAL,pid,def{96},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virdnsmasq.h,GLOBAL,ipv6,def{90},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virdnsmasq.h,GLOBAL,name,def{88,93},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virdnsmasq.h,GLOBAL,caps,def{103,104,105,106},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virdnsmasq.h,GLOBAL,network_name,def{82},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virdnsmasq.h,GLOBAL,mac,def{86},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virdnsmasq.h,GLOBAL,ctx,def{84,85,91,94,95},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virdnsmasq.h,GLOBAL,ip,def{87,92},use{},dvars{},pointers{},cfuncs{}

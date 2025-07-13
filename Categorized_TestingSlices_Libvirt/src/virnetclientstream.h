@@ -1,0 +1,15 @@
+libvirt-1.1.0/src/rpc/virnetclientstream.h,GLOBAL,ff,def{66},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetclientstream.h,GLOBAL,nonblock,def{60},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetclientstream.h,GLOBAL,nbytes,def{54,59},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetclientstream.h,GLOBAL,st,def{39,41,44,47,50,56,62,68,70,72},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetclientstream.h,GLOBAL,status,def{52},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetclientstream.h,GLOBAL,client,def{51,57},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetclientstream.h,GLOBAL,msg,def{42,45,48},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetclientstream.h,GLOBAL,serial,def{37},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetclientstream.h,GLOBAL,proc,def{36},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetclientstream.h,GLOBAL,opaque,def{33,65},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetclientstream.h,GLOBAL,prog,def{35},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetclientstream.h,GLOBAL,cb,def{64},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetclientstream.h,GLOBAL,events,def{33,63,69},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetclientstream.h,GLOBAL,data,def{53,58},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetclientstream.h,GLOBAL,stream,def{32},use{},dvars{},pointers{},cfuncs{}

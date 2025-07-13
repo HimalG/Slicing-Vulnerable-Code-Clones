@@ -1,0 +1,16 @@
+libvirt-1.1.0/src/conf/interface_conf.h,virInterfaceObjIsActive,root,def{207},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/interface_conf.h,virInterfaceObjIsActive,xml,def{206},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/interface_conf.h,virInterfaceObjIsActive,xmlStr,def{204},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/interface_conf.h,virInterfaceObjIsActive,filename,def{205},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/interface_conf.h,virInterfaceObjIsActive,src,def{195},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/interface_conf.h,virInterfaceObjIsActive,vms,def{194},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/interface_conf.h,virInterfaceObjIsActive,dest,def{196},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/interface_conf.h,virInterfaceObjIsActive,def,def{192,200,209},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/interface_conf.h,virInterfaceObjIsActive,mac,def{185},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/interface_conf.h,virInterfaceObjIsActive,maxmatches,def{186},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/interface_conf.h,virInterfaceObjIsActive,matches,def{186},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/interface_conf.h,virInterfaceObjIsActive,name,def{189},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/interface_conf.h,virInterfaceObjIsActive,interfaces,def{184,188,199,201},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/interface_conf.h,virInterfaceObjIsActive,obj,def{211,212},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/interface_conf.h,virInterfaceObjIsActive,iface,def{179,193,202},use{181},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/interface_conf.h,GLOBAL,VIR_ENUM_DECLvirInterfacevirInterfaceStartModeVIR_INTERFACE_START_UNSPECIFIED,def{51},use{},dvars{},pointers{},cfuncs{}

@@ -1,0 +1,17 @@
+libvirt-1.1.0/src/qemu/qemu_bridge_filter.c,networkAllowMacOnPort,errerr,def{74},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_bridge_filter.c,networkAllowMacOnPort,ebtablescontext,def{73},use{74},dvars{errerr},pointers{driver},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_bridge_filter.c,networkAllowMacOnPort,ifname,def{67},use{75,79},dvars{errerr},pointers{},cfuncs{virReportSystemError{2}}
+libvirt-1.1.0/src/qemu/qemu_bridge_filter.c,networkAllowMacOnPort,err,def{70},use{77},dvars{},pointers{},cfuncs{virReportSystemError{1}}
+libvirt-1.1.0/src/qemu/qemu_bridge_filter.c,networkAllowMacOnPort,mac,def{68},use{76},dvars{errerr},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_bridge_filter.c,networkAllowMacOnPort,driver,def{66},use{73,74},dvars{errerr},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_bridge_filter.c,networkDisallowMacOnPort,ebtablescontext,def{94},use{95},dvars{err},pointers{driver},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_bridge_filter.c,networkDisallowMacOnPort,ifname,def{88},use{96,100},dvars{err},pointers{},cfuncs{virReportSystemError{2}}
+libvirt-1.1.0/src/qemu/qemu_bridge_filter.c,networkDisallowMacOnPort,err,def{91,95},use{98},dvars{},pointers{},cfuncs{virReportSystemError{1}}
+libvirt-1.1.0/src/qemu/qemu_bridge_filter.c,networkDisallowMacOnPort,mac,def{89},use{97},dvars{err},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_bridge_filter.c,networkDisallowMacOnPort,driver,def{87},use{94,95},dvars{err},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_bridge_filter.c,networkDisableAllFrames,errerr,def{56},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_bridge_filter.c,networkDisableAllFrames,err,def{53},use{57,60},dvars{},pointers{},cfuncs{virReportSystemError{1}}
+libvirt-1.1.0/src/qemu/qemu_bridge_filter.c,networkDisableAllFrames,driver,def{52},use{56},dvars{errerr},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_bridge_filter.c,networkAddEbtablesRules,usedQMPerr,def{40},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_bridge_filter.c,networkAddEbtablesRules,err,def{37},use{41,44},dvars{},pointers{},cfuncs{virReportSystemError{1}}
+libvirt-1.1.0/src/qemu/qemu_bridge_filter.c,networkAddEbtablesRules,driver,def{36},use{40},dvars{usedQMPerr},pointers{},cfuncs{}

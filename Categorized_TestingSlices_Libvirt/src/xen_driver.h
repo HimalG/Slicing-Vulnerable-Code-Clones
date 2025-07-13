@@ -1,0 +1,10 @@
+libvirt-1.1.0/src/xen/xen_driver.h,GLOBAL,type,def{204},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xen_driver.h,GLOBAL,conn,def{204},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xen_driver.h,GLOBAL,id,def{196,199},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xen_driver.h,GLOBAL,event,def{202},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xen_driver.h,GLOBAL,priv,def{201,206,207},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xen_driver.h,GLOBAL,name,def{196,199},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xen_driver.h,GLOBAL,info,def{194,195,198},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xen_driver.h,GLOBAL,uuid,def{197,200},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xen_driver.h,GLOBAL,dom,def{190},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xen_driver.h,GLOBAL,,def{54,192,203},use{},dvars{},pointers{},cfuncs{}

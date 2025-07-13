@@ -1,0 +1,16 @@
+libvirt-1.1.0/src/xenapi/xenapi_driver_private.h,GLOBAL,comms,def{53},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenapi/xenapi_driver_private.h,GLOBAL,result_func,def{51},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenapi/xenapi_driver_private.h,GLOBAL,user_handle,def{50},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenapi/xenapi_driver_private.h,GLOBAL,ptr,def{53},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenapi/xenapi_driver_private.h,GLOBAL,len,def{50},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenapi/xenapi_driver_private.h,GLOBAL,data,def{50},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenapi/xenapi_driver_private.h,GLOBAL,func,def{40},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenapi/xenapi_driver_private.h,GLOBAL,lineno,def{40},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenapi/xenapi_driver_private.h,GLOBAL,errNum,def{38},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenapi/xenapi_driver_private.h,GLOBAL,conn,def{38},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenapi/xenapi_driver_private.h,GLOBAL,nmemb,def{53},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenapi/xenapi_driver_private.h,GLOBAL,filename,def{39},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenapi/xenapi_driver_private.h,GLOBAL,size,def{53},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenapi/xenapi_driver_private.h,GLOBAL,result_handle,def{51},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenapi/xenapi_driver_private.h,GLOBAL,buf,def{39},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xenapi/xenapi_driver_private.h,GLOBAL,,def{33},use{},dvars{},pointers{},cfuncs{}

@@ -1,0 +1,16 @@
+libvirt-1.1.0/src/util/virnuma.c,virNumaSetupMemoryPolicy,nnodes,def{136},use{140,144},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnuma.c,virNumaSetupMemoryPolicy,tmp_nodemask,def{92,99,103},use{119},dvars{i},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnuma.c,virNumaSetupMemoryPolicy,maxnode,def{91,114},use{120},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnuma.c,virNumaSetupMemoryPolicy,i,def{90,118,119},use{118,120,123,126,137,138,139},dvars{node},pointers{},cfuncs{nodemask_set{2},virReportError{2}}
+libvirt-1.1.0/src/util/virnuma.c,virNumaSetupMemoryPolicy,ret,def{89,164},use{164,167},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnuma.c,virNumaSetupMemoryPolicy,mask,def{86},use{117,126,133,138,154},dvars{},pointers{},cfuncs{numa_set_membind{1},numa_set_interleave_mask{1},nodemask_set{1},nodemask_zero{1}}
+libvirt-1.1.0/src/util/virnuma.c,virNumaSetupMemoryPolicy,node,def{88,139},use{152},dvars{},pointers{},cfuncs{numa_set_preferred{1}}
+libvirt-1.1.0/src/util/virnuma.c,virNumaSetupMemoryPolicy,mode,def{87,129},use{131,135,153},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnuma.c,virNumaSetupMemoryPolicy,nodemask,def{84},use{96,99,103,174},dvars{tmp_nodemask},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnuma.c,virNumaSetupMemoryPolicy,ATTRIBUTE_UNUSED,def{172},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnuma.c,virNumaSetupMemoryPolicy,numatune,def{83,171},use{94,96,99,100,129,174},dvars{mode,tmp_nodemask},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnuma.c,virNumaGetAutoPlacementAdvice,output,def{54},use{60,68,1559,1561,1571},dvars{cmd},pointers{ctrl,vm,cur_balloon,outactual,serial,outbuf,migrate,output},cfuncs{virCommandSetOutputBuffer{2}}
+libvirt-1.1.0/src/util/virnuma.c,virNumaGetAutoPlacementAdvice,cmd,def{53,56},use{57,60,62,67,169,244,246,1373,1380,1389,1394,1559,1562,1565,1566,1571,1572,2383,2546,2549,2552,2553,2556,2557,2558,2560,2561,2562,2564,2565,2566,2568,2569,2570,2572,2574,2578,2579,2582,2584,2585,2587,2588,2590,2593,2596},dvars{cmd},pointers{cmd},cfuncs{pthread_join{1},virCommandAbort{1},VIR_FREE{1},virCommandFree{1},virCommandSetOutputBuffer{1},virThreadJoin{1},VIR_FORCE_CLOSE{1},virCommandAddArgFormat{1}}
+libvirt-1.1.0/src/util/virnuma.c,virNumaGetAutoPlacementAdvice,balloon,def{51},use{58},dvars{},pointers{},cfuncs{VIR_DIV_UP{4}}
+libvirt-1.1.0/src/util/virnuma.c,virNumaGetAutoPlacementAdvice,ATTRIBUTE_UNUSED,def{72,73},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virnuma.c,virNumaGetAutoPlacementAdvice,vcpus,def{50},use{57,330,334,335,1371,1380,1388},dvars{ret},pointers{},cfuncs{VIR_RESIZE_N{3},VIR_RESIZE_N{2},VIR_RESIZE_N{1},virVasprintf{3},virVasprintf{2},virVasprintf{1},virCommandAddArgFormat{3}}

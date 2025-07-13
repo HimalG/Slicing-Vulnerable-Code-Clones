@@ -1,0 +1,11 @@
+libvirt-1.1.0/daemon/lxc_dispatch.h,lxcDispatchDomainOpenNamespaceHelper,ATTRIBUTE_UNUSED,def{16},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/daemon/lxc_dispatch.h,lxcDispatchDomainOpenNamespaceHelper,args,def{15},use{18,19},dvars{},pointers{},cfuncs{VIR_DEBUG{6}}
+libvirt-1.1.0/daemon/lxc_dispatch.h,lxcDispatchDomainOpenNamespaceHelper,rerr,def{14},use{18,19},dvars{},pointers{},cfuncs{VIR_DEBUG{5}}
+libvirt-1.1.0/daemon/lxc_dispatch.h,lxcDispatchDomainOpenNamespaceHelper,msg,def{13},use{18,19},dvars{},pointers{},cfuncs{VIR_DEBUG{4}}
+libvirt-1.1.0/daemon/lxc_dispatch.h,lxcDispatchDomainOpenNamespaceHelper,client,def{12},use{18,19},dvars{},pointers{},cfuncs{VIR_DEBUG{3}}
+libvirt-1.1.0/daemon/lxc_dispatch.h,lxcDispatchDomainOpenNamespaceHelper,server,def{11},use{18,19},dvars{},pointers{},cfuncs{VIR_DEBUG{2}}
+libvirt-1.1.0/daemon/lxc_dispatch.h,GLOBAL,args,def{9},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/daemon/lxc_dispatch.h,GLOBAL,rerr,def{8},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/daemon/lxc_dispatch.h,GLOBAL,msg,def{7},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/daemon/lxc_dispatch.h,GLOBAL,client,def{6},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/daemon/lxc_dispatch.h,GLOBAL,server,def{5},use{},dvars{},pointers{},cfuncs{}

@@ -1,0 +1,16 @@
+libvirt-1.1.0/src/rpc/virnetserverservice.h,GLOBAL,enabled,def{83},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverservice.h,GLOBAL,object,def{65},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverservice.h,GLOBAL,fd,def{57},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverservice.h,GLOBAL,grp,def{50},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverservice.h,GLOBAL,mask,def{49},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverservice.h,GLOBAL,readonly,def{46,55,62},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverservice.h,GLOBAL,auth,def{42,51,58},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverservice.h,GLOBAL,nrequests_client_max,def{47,56,63},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverservice.h,GLOBAL,opaque,def{38,80},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverservice.h,GLOBAL,tls,def{44,53,60},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverservice.h,GLOBAL,service,def{41,67},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverservice.h,GLOBAL,path,def{48},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverservice.h,GLOBAL,nodename,def{40},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverservice.h,GLOBAL,func,def{79},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverservice.h,GLOBAL,sock,def{37},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/rpc/virnetserverservice.h,GLOBAL,svc,def{36,69,71,72,73,75,78,82,85},use{},dvars{},pointers{},cfuncs{}

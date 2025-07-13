@@ -1,0 +1,11 @@
+libvirt-1.1.0/gnulib/lib/rawmemchr.c,rawmemchr,i,def{66},use{68,70,71},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/rawmemchr.c,rawmemchr,char_ptrlongword_ptr,def{49},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/rawmemchr.c,rawmemchr,c,def{37},use{46,58,133},dvars{repeated_c},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/rawmemchr.c,rawmemchr,longword1,def{115},use{117},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/rawmemchr.c,rawmemchr,repeated_c,def{36,58},use{59,63,71,115},dvars{longword1},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/rawmemchr.c,rawmemchr,repeated_one,def{35,57},use{57,62,70,117,118},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/rawmemchr.c,rawmemchr,stringmaxlenc,def{39},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/rawmemchr.c,rawmemchr,c_in,def{24},use{39},dvars{stringmaxlenc},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/rawmemchr.c,rawmemchr,char_ptr,def{33,123,132},use{44,46,47,49,133,134,135},dvars{char_ptrlongword_ptr},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/rawmemchr.c,rawmemchr,longword_ptr,def{34},use{115,120,123,132},dvars{char_ptr,longword1},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/rawmemchr.c,rawmemchr,s,def{24},use{},dvars{},pointers{},cfuncs{}

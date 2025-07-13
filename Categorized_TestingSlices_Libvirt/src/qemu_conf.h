@@ -1,0 +1,17 @@
+libvirt-1.1.0/src/qemu/qemu_conf.h,GLOBAL,dev,def{303,308,312},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_conf.h,GLOBAL,def,def{318},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_conf.h,GLOBAL,payload,def{299},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_conf.h,GLOBAL,disk_path,def{296},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_conf.h,GLOBAL,index,def{293},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_conf.h,GLOBAL,name,def{292,299,304,309},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_conf.h,GLOBAL,closeCallbacks,def{273,277,281,284},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_conf.h,GLOBAL,entry,def{291},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_conf.h,GLOBAL,cb,def{276,279},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_conf.h,GLOBAL,,def{272},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_conf.h,GLOBAL,vm,def{270,274,278,282},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_conf.h,GLOBAL,filename,def{254},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_conf.h,GLOBAL,refresh,def{260},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_conf.h,GLOBAL,driver,def{256,258,259,269,286,302,307,314,315},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_conf.h,GLOBAL,conn,def{271,275,283,285,317},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_conf.h,GLOBAL,cfg,def{253},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_conf.h,GLOBAL,privileged,def{251},use{},dvars{},pointers{},cfuncs{}

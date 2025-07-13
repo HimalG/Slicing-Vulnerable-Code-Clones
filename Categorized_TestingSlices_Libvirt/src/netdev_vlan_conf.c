@@ -1,0 +1,16 @@
+libvirt-1.1.0/src/conf/netdev_vlan_conf.c,virNetDevVlanFormat,mode,def{162},use{163,168},dvars{},pointers{},cfuncs{virBufferAsprintf{4}}
+libvirt-1.1.0/src/conf/netdev_vlan_conf.c,virNetDevVlanFormat,ii,def{146},use{158},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/netdev_vlan_conf.c,virNetDevVlanFormat,buf,def{144},use{157,167,170,173,292,293,294,295},dvars{},pointers{},cfuncs{virBufferVasprintf{3},va_start{1},va_end{1},virBufferAddLit{1},virBufferAsprintf{1}}
+libvirt-1.1.0/src/conf/netdev_vlan_conf.c,virNetDevVlanFormat,def,def{144},use{148,151,157,158,159,160,162,168,170,290},dvars{},pointers{},cfuncs{virNativeVlanModeTypeToString{1},virBufferAsprintf{3}}
+libvirt-1.1.0/src/conf/netdev_vlan_conf.c,virNetDevVlanParse,defnativeMode,def{84},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/netdev_vlan_conf.c,virNetDevVlanParse,id,def{65},use{68,73,75,93,95},dvars{def},pointers{},cfuncs{virReportError{2}}
+libvirt-1.1.0/src/conf/netdev_vlan_conf.c,virNetDevVlanParse,ii,def{42},use{64},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/netdev_vlan_conf.c,virNetDevVlanParse,nTags,def{42,46},use{47,50,57,64,98,103,110},dvars{def},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/netdev_vlan_conf.c,virNetDevVlanParse,tagNodes,def{41},use{46,67,135,578,607,608,609,611,614,618},dvars{ctxt,nTags},pointers{},cfuncs{memcpy{3},VIR_FREE{1},virXPathNodeSet{3}}
+libvirt-1.1.0/src/conf/netdev_vlan_conf.c,virNetDevVlanParse,nativeMode,def{40,78},use{62,79,85,89,92,116,137},dvars{defnativeMode},pointers{ctxt},cfuncs{VIR_FREE{1},virReportError{2}}
+libvirt-1.1.0/src/conf/netdev_vlan_conf.c,virNetDevVlanParse,trunk,def{39,107},use{108,109,113,123,126,136},dvars{def},pointers{ctxt},cfuncs{virReportError{2},VIR_FREE{1},STRCASEEQ{1}}
+libvirt-1.1.0/src/conf/netdev_vlan_conf.c,virNetDevVlanParse,ret,def{37,132},use{132,138,140},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/netdev_vlan_conf.c,virNetDevVlanParse,save,def{38},use{134},dvars{ctxt},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/netdev_vlan_conf.c,virNetDevVlanParse,def,def{35,62,63,93,95,98,104,108},use{32,34,35,36,37,57,62,63,79,109,116,139},dvars{},pointers{},cfuncs{VIR_FREE{1},virNetDevVlanClear{1}}
+libvirt-1.1.0/src/conf/netdev_vlan_conf.c,virNetDevVlanParse,ctxt,def{35,44,67,106,134},use{38,46,68,78,85,107,108,573,580,589,591},dvars{relnode,def,defnativeMode,nTags,save},pointers{},cfuncs{virXPathNodeSet{2}}
+libvirt-1.1.0/src/conf/netdev_vlan_conf.c,virNetDevVlanParse,node,def{35},use{44,106},dvars{ctxt},pointers{},cfuncs{}

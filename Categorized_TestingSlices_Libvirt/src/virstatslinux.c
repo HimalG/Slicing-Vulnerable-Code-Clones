@@ -1,0 +1,15 @@
+libvirt-1.1.0/src/util/virstatslinux.c,linuxDomainInterfaceStats,tx_drop,def{76},use{95,108},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstatslinux.c,linuxDomainInterfaceStats,tx_errs,def{75},use{95,107},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstatslinux.c,linuxDomainInterfaceStats,tx_packets,def{74},use{95,106},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstatslinux.c,linuxDomainInterfaceStats,rx_errs,def{71},use{97,103},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstatslinux.c,linuxDomainInterfaceStats,rx_packets,def{70},use{97,102},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstatslinux.c,linuxDomainInterfaceStats,dummy,def{68},use{96,98},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstatslinux.c,linuxDomainInterfaceStats,line,def{56},use{67,82,85},dvars{colon},pointers{},cfuncs{strchr{1}}
+libvirt-1.1.0/src/util/virstatslinux.c,linuxDomainInterfaceStats,colon,def{56,82,84},use{83,84,85,86,93},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstatslinux.c,linuxDomainInterfaceStats,fp,def{55,58},use{59,67,109,114},dvars{},pointers{},cfuncs{VIR_FORCE_FCLOSE{1}}
+libvirt-1.1.0/src/util/virstatslinux.c,linuxDomainInterfaceStats,rx_bytes,def{69},use{97,101},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstatslinux.c,linuxDomainInterfaceStats,path_len,def{54,65},use{85,86},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstatslinux.c,linuxDomainInterfaceStats,stats,def{52,101,102,103,104,105,106,107,108},use{},dvars{},pointers{stats,tx_drop,tx_packets,rx_drop,rx_bytes,tx_bytes,rx_errs,tx_errs,rx_packets},cfuncs{}
+libvirt-1.1.0/src/util/virstatslinux.c,linuxDomainInterfaceStats,tx_bytes,def{73},use{95,105},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstatslinux.c,linuxDomainInterfaceStats,rx_drop,def{72},use{97,104},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstatslinux.c,linuxDomainInterfaceStats,path,def{51},use{65,86},dvars{path_len},pointers{},cfuncs{strlen{1}}

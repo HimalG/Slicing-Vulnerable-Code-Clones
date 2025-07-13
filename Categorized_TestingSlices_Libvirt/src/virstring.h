@@ -1,0 +1,13 @@
+libvirt-1.1.0/src/util/virstring.h,GLOBAL,,def{89,112,126,144,164},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstring.h,GLOBAL,str,def{73,74,75,76},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstring.h,GLOBAL,end_ptr,def{45,50,54,58,62,66,70},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstring.h,GLOBAL,s,def{44,49,53,57,61,65,69},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstring.h,GLOBAL,argv,def{42},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstring.h,GLOBAL,strings,def{34,38,40,167},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstring.h,GLOBAL,delim,def{30,35},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstring.h,GLOBAL,base,def{46,51,55,59,63,67},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstring.h,GLOBAL,needle,def{40},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstring.h,GLOBAL,endp,def{75,76},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstring.h,GLOBAL,result,def{47,52,56,60,64,68,71},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstring.h,GLOBAL,max_tokens,def{31},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstring.h,GLOBAL,string,def{29},use{},dvars{},pointers{},cfuncs{}

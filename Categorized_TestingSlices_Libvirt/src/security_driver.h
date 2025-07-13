@@ -1,0 +1,16 @@
+libvirt-1.1.0/src/security/security_driver.h,GLOBAL,path,def{110},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/security/security_driver.h,GLOBAL,sec,def{77,79,82,84,92},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/security/security_driver.h,GLOBAL,name,def{155},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/security/security_driver.h,GLOBAL,mgr,def{44,45,47,48,50,53,55,57,59,62,66,70,73,76,78,81,83,86,89,93,95,98,100,103,106,108},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/security/security_driver.h,GLOBAL,savefile,def{72,75},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/security/security_driver.h,GLOBAL,pid,def{80,91},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/security/security_driver.h,GLOBAL,migrated,def{88},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/security/security_driver.h,GLOBAL,dev,def{64,68},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/security/security_driver.h,GLOBAL,stdin_path,def{85},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/security/security_driver.h,GLOBAL,def,def{51,56,58,60,63,67,71,74,87,90,94,96,99,101,104,107,109},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/security/security_driver.h,GLOBAL,vm,def{54},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/security/security_driver.h,GLOBAL,fd,def{102,105},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/security/security_driver.h,GLOBAL,virtDriver,def{43,156},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/security/security_driver.h,GLOBAL,vroot,def{65,69},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/security/security_driver.h,GLOBAL,cmd,def{97},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/security/security_driver.h,GLOBAL,disk,def{52,61},use{},dvars{},pointers{},cfuncs{}

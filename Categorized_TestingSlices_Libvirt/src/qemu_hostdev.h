@@ -1,0 +1,13 @@
+libvirt-1.1.0/src/qemu/qemu_hostdev.h,GLOBAL,stateDir,def{68,70},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_hostdev.h,GLOBAL,dev,def{58},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_hostdev.h,GLOBAL,list,def{46},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_hostdev.h,GLOBAL,mandatory,def{42},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_hostdev.h,GLOBAL,hostdev,def{41,65,66,69},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_hostdev.h,GLOBAL,usb,def{43},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_hostdev.h,GLOBAL,def,def{31,33,35,52,64},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_hostdev.h,GLOBAL,hostdevs,def{39,49,56,61},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_hostdev.h,GLOBAL,coldBoot,def{53},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_hostdev.h,GLOBAL,uuid,def{38,67},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_hostdev.h,GLOBAL,name,def{37,45,48,55,60},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_hostdev.h,GLOBAL,nhostdevs,def{40,50,57,62},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/qemu/qemu_hostdev.h,GLOBAL,driver,def{30,32,34,36,44,47,51,54,58,59,63},use{},dvars{},pointers{},cfuncs{}

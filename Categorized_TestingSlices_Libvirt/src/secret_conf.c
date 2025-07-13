@@ -1,0 +1,27 @@
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefParseFile,filename,def{241},use{243},dvars{},pointers{xml_filename},cfuncs{}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefFormatUsage,retvirSecretDefParsexmlStrNULLvirSecretDefParseNULLfilenametype,def{252},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefFormatUsage,type,def{250},use{253,259,290},dvars{},pointers{},cfuncs{virBufferAsprintf{3}}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefFormatUsage,def,def{248},use{252,256,260,265,267,271,273,278,280,287,290,366,372,378,379,380,390},dvars{len,retvirSecretDefParsexmlStrNULLvirSecretDefParseNULLfilenametype},pointers{},cfuncs{virBufferAsprintf{3},virReportError{2},strlen{1},virBufferEscapeString{3},virSecretUsageTypeTypeToString{1}}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefFormatUsage,buf,def{247},use{259,266,272,279,290,292,293,294,295,369,385,391,437,438},dvars{},pointers{},cfuncs{va_end{1},virBufferVasprintf{3},va_start{1},virBufferAddLit{1},virBufferEscapeString{1},VIR_FREE{1},virBufferAsprintf{3},virBufferAsprintf{1}}
+libvirt-1.1.0/src/conf/secret_conf.c,secretXMLParseNode,ret,def{136,208},use{216},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/secret_conf.c,secretXMLParseNode,def,def{136,163,165,177,179,204,209},use{41,43,46,47,52,56,60,64,67,155,190,196,206,208,214},dvars{ret},pointers{},cfuncs{VIR_ERROR{2},VIR_FREE{1},virSecretDefFree{1}}
+libvirt-1.1.0/src/conf/secret_conf.c,secretXMLParseNode,root,def{133},use{140,144,153},dvars{ctxt},pointers{},cfuncs{virReportError{2}}
+libvirt-1.1.0/src/conf/secret_conf.c,secretXMLParseNode,uuidstr,def{138,188},use{189,196,201,213},dvars{},pointers{ctxt},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/src/conf/secret_conf.c,secretXMLParseNode,prop,def{137,160,174},use{161,162,164,171,175,176,178,185,212},dvars{},pointers{ctxt},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/src/conf/secret_conf.c,secretXMLParseNode,ctxt,def{135,148,153},use{149,160,174,188,204,205,206,215},dvars{def},pointers{},cfuncs{xmlXPathFreeContext{1},virXPathString{2}}
+libvirt-1.1.0/src/conf/secret_conf.c,secretXMLParseNode,xml,def{133},use{148},dvars{ctxt},pointers{},cfuncs{xmlXPathNewContext{1}}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefParseUsage,type,def{75,83},use{84,91},dvars{def},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefParseUsage,def,def{72,91,97,106,115},use{92,98,107,116,126},dvars{},pointers{},cfuncs{virReportError{2}}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefParseUsage,type_str,def{74,77},use{78,83,86,87,90},dvars{type},pointers{ctxt},cfuncs{VIR_FREE{1},virReportError{2},virSecretUsageTypeTypeFromString{1}}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefParseUsage,ctxt,def{71},use{77,83,97,106,115},dvars{def,type},pointers{},cfuncs{virXPathString{2}}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefParse,retxml,def{226},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefParse,ret,def{224,227},use{231},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefParse,xml,def{223},use{41,43,46,47,52,56,60,64,67,136,155,163,165,177,179,190,196,204,206,208,209,214,227,228},dvars{ret},pointers{},cfuncs{VIR_ERROR{2},VIR_FREE{1},virSecretDefFree{1},xmlFreeDoc{1},xmlDocGetRootElement{2},secretXMLParseNode{1}}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefParse,filename,def{221},use{226},dvars{retxml},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefParse,xmlStr,def{220},use{226},dvars{retxml},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefFormat,uuidstr,def{300},use{290,307,308,366,372,378,379,380,390},dvars{len},pointers{},cfuncs{virBufferAsprintf{3},strlen{1},virBufferEscapeString{3},virUUIDFormat{2}}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefFormat,uuid,def{299,306},use{42,44,45,47,209,211,217,218,307},dvars{},pointers{ovsport,uuid,dom,obj,params,pool,domain,nwfilter,driver,secret,network,vm,entry,vmuuid,priv,snapshot,list,mig,def},cfuncs{va_end {1},vasnprintf {4},snprintf{1},va_start {1},virUUIDFormat{1}}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefFormat,buf,def{298},use{243,245,290,292,293,294,295,302,308,310,313,315,317,320,325,369,385,391,437,438},dvars{},pointers{},cfuncs{va_end{1},virBufferVasprintf{3},va_start{1},VIR_FREE{1},virBufferAddLit{1},virBufferEscapeString{1},virBufferAsprintf{1},virBufferAsprintf{3},virBufferFreeAndReset{1}}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefFormat,def,def{296},use{290,303,304,306,309,311,312,313,366,372,378,379,380,390},dvars{len},pointers{},cfuncs{strlen{1},virBufferEscapeString{3},virBufferAsprintf{4},virBufferAsprintf{3}}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefParseString,xmlStr,def{235},use{237},dvars{},pointers{xml},cfuncs{}
+libvirt-1.1.0/src/conf/secret_conf.c,virSecretDefFree,def,def{41},use{43,46,47,52,56,60,64,67},dvars{},pointers{},cfuncs{VIR_ERROR{2},VIR_FREE{1}}

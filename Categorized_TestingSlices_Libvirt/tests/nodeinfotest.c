@@ -1,0 +1,25 @@
+libvirt-1.1.0/tests/nodeinfotest.c,mymain,i,def{124},use{142},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/nodeinfotest.c,mymain,ret,def{123,144},use{144,146},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/nodeinfotest.c,mymain,nodeData,def{125},use{142,143},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/nodeinfotest.c,mymain,,def{121},use{127,128,142,143,146},dvars{},pointers{},cfuncs{ARRAY_CARDINALITY{1},virtTestRun{4},virtTestRun{3},virtTestRun{1},defined{1}}
+libvirt-1.1.0/tests/nodeinfotest.c,linuxTestNodeInfo,arch,def{93},use{97,103,105},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/nodeinfotest.c,linuxTestNodeInfo,test,def{92},use{101,103,105},dvars{},pointers{data},cfuncs{}
+libvirt-1.1.0/tests/nodeinfotest.c,linuxTestNodeInfo,cpuinfo,def{89},use{41,46,47,51,58,61,102,109,112},dvars{result},pointers{},cfuncs{VIR_FREE{1},VIR_FORCE_FCLOSE{1},linuxTestCompareFiles{1}}
+libvirt-1.1.0/tests/nodeinfotest.c,linuxTestNodeInfo,output,def{91},use{104,109,113},dvars{result},pointers{},cfuncs{VIR_FREE{1},linuxTestCompareFiles{3}}
+libvirt-1.1.0/tests/nodeinfotest.c,linuxTestNodeInfo,sysfs_dir,def{90},use{100,109,114},dvars{result},pointers{},cfuncs{VIR_FREE{1},linuxTestCompareFiles{2}}
+libvirt-1.1.0/tests/nodeinfotest.c,linuxTestNodeInfo,result,def{88,109},use{116},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/nodeinfotest.c,linuxTestNodeInfo,retarch,def{97},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/nodeinfotest.c,linuxTestNodeInfo,data,def{86},use{92},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/nodeinfotest.c,linuxTestCompareFiles,cpuinfo,def{41,46},use{47,51,58,61},dvars{},pointers{cpuinfo,cpuinfofile},cfuncs{VIR_FORCE_FCLOSE{1}}
+libvirt-1.1.0/tests/nodeinfotest.c,linuxTestCompareFiles,expectData,def{39},use{43,71,72,79},dvars{},pointers{},cfuncs{VIR_FREE{1},virtTestDifference{2}}
+libvirt-1.1.0/tests/nodeinfotest.c,linuxTestCompareFiles,error,def{53},use{54,55,56,132,348,350,352,353,354,355,356,366,368,369},dvars{},pointers{},cfuncs{memset{1},VIR_FREE{1},virFreeError{1},virResetError{1},fprintf{3}}
+libvirt-1.1.0/tests/nodeinfotest.c,linuxTestCompareFiles,actualData,def{38},use{63,71,72,80,356,359,360,385},dvars{},pointers{},cfuncs{VIR_FREE{1},(int) {3},strlen{1},virtTestDifference{3}}
+libvirt-1.1.0/tests/nodeinfotest.c,linuxTestCompareFiles,ret,def{37,76},use{76,81},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/nodeinfotest.c,linuxTestCompareFiles,nodeinfo,def{40},use{50,51,66,67,68},dvars{},pointers{},cfuncs{memset{4},memset{1}}
+libvirt-1.1.0/tests/nodeinfotest.c,linuxTestCompareFiles,outputfile,def{35},use{43},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/nodeinfotest.c,linuxTestCompareFiles,sysfs_dir,def{34},use{51},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/nodeinfotest.c,linuxTestCompareFiles,cpuinfofile,def{33},use{46,379,383,391,399,408},dvars{},pointers{},cfuncs{fopen{1}}
+libvirt-1.1.0/tests/nodeinfotest.c,main,nodeinfo,def{30},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/nodeinfotest.c,main,sysfs_dir,def{29},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/nodeinfotest.c,main,cpuinfo,def{28},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/nodeinfotest.c,main,,def{21},use{},dvars{},pointers{},cfuncs{}

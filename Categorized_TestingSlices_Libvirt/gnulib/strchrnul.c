@@ -1,0 +1,11 @@
+libvirt-1.1.0/gnulib/lib/strchrnul.c,strchrnul,longword2,def{120},use{123},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/strchrnul.c,strchrnul,i,def{68},use{70,72,73},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/strchrnul.c,strchrnul,char_ptrlongword_ptr,def{51},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/strchrnul.c,strchrnul,c,def{37,39},use{40,48,60,139},dvars{repeated_c},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/strchrnul.c,strchrnul,longword1,def{119},use{122},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/strchrnul.c,strchrnul,repeated_c,def{36,60},use{61,65,73,119},dvars{longword1},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/strchrnul.c,strchrnul,repeated_one,def{35,59},use{59,64,72,122,123,124},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/strchrnul.c,strchrnul,c_in,def{24},use{39},dvars{c},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/strchrnul.c,strchrnul,char_ptr,def{33,129,138},use{46,48,49,51,139,140,141},dvars{char_ptrlongword_ptr},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/strchrnul.c,strchrnul,longword_ptr,def{34},use{119,120,126,129,138},dvars{char_ptr,longword2,longword1},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/strchrnul.c,strchrnul,s,def{24},use{41},dvars{},pointers{buf,p,data,start},cfuncs{}

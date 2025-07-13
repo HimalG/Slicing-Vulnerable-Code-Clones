@@ -1,0 +1,16 @@
+libvirt-1.1.0/src/util/virstoragefile.h,GLOBAL,capacity,def{104},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstoragefile.h,GLOBAL,pre_allocate,def{106},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstoragefile.h,GLOBAL,allow_probe,def{89},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstoragefile.h,GLOBAL,chain,def{94},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstoragefile.h,GLOBAL,parent,def{98},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstoragefile.h,GLOBAL,meta,def{97,101},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstoragefile.h,GLOBAL,start,def{95},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstoragefile.h,GLOBAL,fd,def{84,91},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstoragefile.h,GLOBAL,gid,def{82,88},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstoragefile.h,GLOBAL,format,def{87,92},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstoragefile.h,GLOBAL,orig_capacity,def{105},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstoragefile.h,GLOBAL,uid,def{82,88},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstoragefile.h,GLOBAL,name,def{96},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstoragefile.h,GLOBAL,key,def{121,123},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstoragefile.h,GLOBAL,fstypes,def{118},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virstoragefile.h,GLOBAL,path,def{82,83,86,90,103,115,116,117,120,122},use{},dvars{},pointers{},cfuncs{}

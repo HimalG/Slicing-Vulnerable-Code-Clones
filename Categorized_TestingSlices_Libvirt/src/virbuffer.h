@@ -1,0 +1,12 @@
+libvirt-1.1.0/src/util/virbuffer.h,GLOBAL,trim,def{80},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbuffer.h,GLOBAL,indent,def{77},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbuffer.h,GLOBAL,dynamic,def{78},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbuffer.h,GLOBAL,str,def{57,66,68,70,71,72},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbuffer.h,GLOBAL,ap,def{61},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbuffer.h,GLOBAL,escape,def{65},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbuffer.h,GLOBAL,format,def{59,61,66,67,69},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbuffer.h,GLOBAL,c,def{58},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbuffer.h,GLOBAL,toescape,def{65},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbuffer.h,GLOBAL,len,def{57,80},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbuffer.h,GLOBAL,,def{59,74},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virbuffer.h,GLOBAL,buf,def{52,53,54,55,56,57,58,59,61,65,67,69,71,72,77,78,80},use{},dvars{},pointers{},cfuncs{}

@@ -1,0 +1,14 @@
+libvirt-1.1.0/src/access/viraccessmanager.h,GLOBAL,vol,def{87},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessmanager.h,GLOBAL,pool,def{82,86},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessmanager.h,GLOBAL,nodedev,def{70},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessmanager.h,GLOBAL,secret,def{78},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessmanager.h,GLOBAL,,def{37},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessmanager.h,GLOBAL,network,def{66},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessmanager.h,GLOBAL,domain,def{58},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessmanager.h,GLOBAL,driverName,def{54,57,61,65,69,73,77,81,85},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessmanager.h,GLOBAL,names,def{41},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessmanager.h,GLOBAL,perm,def{55,59,63,67,71,75,79,83,88},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessmanager.h,GLOBAL,manager,def{38,44,53,56,60,64,68,72,76,80,84},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessmanager.h,GLOBAL,nwfilter,def{74},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessmanager.h,GLOBAL,iface,def{62},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessmanager.h,GLOBAL,name,def{40},use{},dvars{},pointers{},cfuncs{}

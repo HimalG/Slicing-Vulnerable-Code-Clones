@@ -1,0 +1,72 @@
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckStoragePool,attrs,def{351},use{362},dvars{},pointers{uuidstr,pool,driverName},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckStoragePool,manager,def{345},use{359},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckStoragePool,perm,def{348},use{361},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckStoragePool,driverName,def{346},use{352},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckStoragePool,uuidstr,def{350},use{354,357},dvars{},pointers{},cfuncs{virUUIDFormat{2}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckStoragePool,pool,def{347},use{42,44,45,47,209,211,217,218,353,357},dvars{},pointers{},cfuncs{va_end {1},vasnprintf {4},snprintf{1},va_start {1},virUUIDFormat{1}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckSecret,attrs,def{291,303,316,329},use{300,313,326,339},dvars{},pointers{secret,uuidstr,driverName},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckSecret,secret,def{282},use{42,44,45,47,209,211,217,218,286,288,306,319,332},dvars{},pointers{},cfuncs{va_end {1},vasnprintf {4},snprintf{1},va_start {1},virUUIDFormat{1}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckSecret,manager,def{280},use{297,310,323,336},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckSecret,perm,def{283},use{299,312,325,338},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckSecret,driverName,def{281},use{292,304,317,330},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckSecret,uuidstr,def{285},use{286,293,305,318,331},dvars{},pointers{},cfuncs{virUUIDFormat{2}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCleanup,ATTRIBUTE_UNUSED,def{46},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckNWFilter,attrs,def{265},use{276},dvars{},pointers{uuidstr,nwfilter,driverName},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckNWFilter,manager,def{259},use{273},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckNWFilter,perm,def{262},use{275},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckNWFilter,driverName,def{260},use{266},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckNWFilter,uuidstr,def{264},use{268,271},dvars{},pointers{},cfuncs{virUUIDFormat{2}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckNWFilter,nwfilter,def{261},use{42,44,45,47,209,211,217,218,267,271},dvars{},pointers{},cfuncs{va_end {1},vasnprintf {4},snprintf{1},va_start {1},virUUIDFormat{1}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckNodeDevice,attrs,def{246},use{255},dvars{},pointers{nodedev,driverName},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckNodeDevice,nodedev,def{243},use{248},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckNodeDevice,perm,def{244},use{254},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckNodeDevice,driverName,def{242},use{247},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckNodeDevice,manager,def{241},use{252},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckInterface,attrs,def{206},use{216},dvars{},pointers{iface,driverName},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckInterface,iface,def{203},use{208,209},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckInterface,perm,def{204},use{215},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckInterface,driverName,def{202},use{207},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckInterface,manager,def{201},use{213},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckStorageVol,uuidstr,def{372},use{376,381},dvars{},pointers{},cfuncs{virUUIDFormat{2}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckStorageVol,attrs,def{373},use{386},dvars{},pointers{vol,uuidstr,pool,driverName},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckStorageVol,vol,def{369},use{377,378},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckStorageVol,manager,def{366},use{383},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckStorageVol,perm,def{370},use{385},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckStorageVol,driverName,def{367},use{374},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckStorageVol,pool,def{368},use{42,44,45,47,209,211,217,218,375,381},dvars{},pointers{},cfuncs{va_end {1},vasnprintf {4},snprintf{1},va_start {1},virUUIDFormat{1}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,GLOBAL,,def{32},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckNetwork,attrs,def{226},use{237},dvars{},pointers{uuidstr,network,driverName},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckNetwork,network,def{222},use{42,44,45,47,209,211,217,218,228,232},dvars{},pointers{},cfuncs{va_end {1},vasnprintf {4},snprintf{1},va_start {1},virUUIDFormat{1}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckNetwork,manager,def{220},use{234},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckNetwork,perm,def{223},use{236},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckNetwork,driverName,def{221},use{227},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckNetwork,uuidstr,def{225},use{229,232},dvars{},pointers{},cfuncs{virUUIDFormat{2}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckDomain,attrs,def{186},use{197},dvars{},pointers{uuidstr,domain,driverName},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckDomain,domain,def{182},use{42,44,45,47,188,192,209,211,217,218},dvars{},pointers{},cfuncs{va_end {1},vasnprintf {4},snprintf{1},va_start {1},virUUIDFormat{1}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckDomain,manager,def{180},use{194},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckDomain,perm,def{183},use{196},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckDomain,driverName,def{181},use{187},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckDomain,uuidstr,def{185},use{189,192},dvars{},pointers{},cfuncs{virUUIDFormat{2}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheck,retactionid,def{116},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheck,ret,def{114,138,143,145},use{138,143,145,159},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheck,status,def{113},use{63,65,68,71,73,134,137,140,141,142,146,330,334,348,351,352,353},dvars{ret},pointers{},cfuncs{va_end{1},va_start{1},virAsprintf{1},virVasprintf{3},virProcessTranslateStatus{1}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheck,process,def{111,119},use{122,126,149,158},dvars{cmd},pointers{actionid},cfuncs{virAccessError{3},VIR_FREE{1},virCommandNewArgList{5},VIR_DEBUG{3}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheck,cmd,def{112,124},use{130,134,156,169,244,246,1462,1468,1469,1471,1479,1481,1486,1491,2383,2546,2549,2552,2553,2556,2557,2558,2560,2561,2562,2564,2565,2566,2568,2569,2570,2572,2574,2578,2579,2582,2584,2585,2587,2588,2590,2593,2596},dvars{},pointers{},cfuncs{va_arg{1},va_end{1},va_start{1},pthread_join{1},virCommandAbort{1},virCommandFree{1},VIR_FREE{1},VIR_FORCE_CLOSE{1},virThreadJoin{1},virCommandAddArgList{1}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheck,actionid,def{110},use{119,122,125,126,149,157},dvars{cmd},pointers{},cfuncs{virAccessError{2},VIR_FREE{1},virCommandNewArgList{3},VIR_DEBUG{2}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheck,typename,def{106},use{116},dvars{retactionid},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheck,attrs,def{108},use{129,130,131,1463,1470,1474},dvars{},pointers{},cfuncs{virCommandAddArgList{4},virCommandAddArgList{3}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheck,tmp,def{146},use{149,150},dvars{},pointers{},cfuncs{VIR_FREE{1},NULLSTR{4}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheck,permname,def{107},use{116},dvars{retactionid},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheck,ATTRIBUTE_UNUSED,def{105},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitFormatProcess,ret,def{78},use{95,100},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitFormatProcess,process,def{77},use{86,89,95},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitFormatProcess,identity,def{76},use{80,86,99,254,256,258,259,260,262,263,266,271,272,273,274,338,343},dvars{klass,is_zero},pointers{},cfuncs{VIR_FREE{1},dispose{1},virAtomicIntDecAndTest{1},memset{3},memset{1},PROBE{3},virObjectUnref{1}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitFormatProcess,actionid,def{74},use{83},dvars{},pointers{},cfuncs{virAccessError{2}}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitFormatAction,i,def{56},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitFormatAction,actionid,def{55,67},use{58,65,66,67,69},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitFormatAction,permname,def{53},use{60},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitFormatAction,typename,def{52},use{60},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckConnect,attrs,def{168},use{176},dvars{},pointers{driverName},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckConnect,perm,def{166},use{175},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckConnect,driverName,def{165},use{169},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdriverpolkit.c,virAccessDriverPolkitCheckConnect,manager,def{164},use{173},dvars{},pointers{},cfuncs{}

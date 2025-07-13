@@ -1,0 +1,12 @@
+libvirt-1.1.0/src/locking/lock_driver.h,GLOBAL,action,def{242},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/locking/lock_driver.h,GLOBAL,name,def{212},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/locking/lock_driver.h,GLOBAL,flags,def{128,167,215,241,258,275},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/locking/lock_driver.h,GLOBAL,state,def{240,257,274},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/locking/lock_driver.h,GLOBAL,,def{137},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/locking/lock_driver.h,GLOBAL,nparams,def{165,213},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/locking/lock_driver.h,GLOBAL,fd,def{243},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/locking/lock_driver.h,GLOBAL,params,def{166,214},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/locking/lock_driver.h,GLOBAL,type,def{164,211},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/locking/lock_driver.h,GLOBAL,man,def{163,176,210,239,256,273},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/locking/lock_driver.h,GLOBAL,configFile,def{127},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/locking/lock_driver.h,GLOBAL,version,def{126},use{},dvars{},pointers{},cfuncs{}

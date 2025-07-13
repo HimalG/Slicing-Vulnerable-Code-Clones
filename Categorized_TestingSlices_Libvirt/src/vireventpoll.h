@@ -1,0 +1,9 @@
+libvirt-1.1.0/src/util/vireventpoll.h,GLOBAL,frequency,def{76,92},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/vireventpoll.h,GLOBAL,watch,def{52,61},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/vireventpoll.h,GLOBAL,events,def{39,52,120,121},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/vireventpoll.h,GLOBAL,ff,def{42,79},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/vireventpoll.h,GLOBAL,timer,def{92,101},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/vireventpoll.h,GLOBAL,opaque,def{41,78},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/vireventpoll.h,GLOBAL,,def{108,118,129},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/vireventpoll.h,GLOBAL,cb,def{40,77},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/vireventpoll.h,GLOBAL,fd,def{39},use{},dvars{},pointers{},cfuncs{}

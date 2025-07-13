@@ -1,0 +1,9 @@
+libvirt-1.1.0/src/network/bridge_driver.h,GLOBAL,caps,def{51},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/network/bridge_driver.h,GLOBAL,configstr,def{49},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/network/bridge_driver.h,GLOBAL,netaddr,def{44},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/network/bridge_driver.h,GLOBAL,network,def{47},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/network/bridge_driver.h,GLOBAL,netname,def{44,62},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/network/bridge_driver.h,GLOBAL,dctx,def{50},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/network/bridge_driver.h,GLOBAL,pidfile,def{48},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/network/bridge_driver.h,GLOBAL,iface,def{37,39,41},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/network/bridge_driver.h,GLOBAL,,def{34,54,55,56,57,58,59},use{},dvars{},pointers{},cfuncs{}

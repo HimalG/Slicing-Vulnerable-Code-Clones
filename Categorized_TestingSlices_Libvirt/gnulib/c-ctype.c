@@ -1,0 +1,15 @@
+libvirt-1.1.0/gnulib/lib/c-ctype.c,c_tolower,c,def{320},use{323,325,353},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/c-ctype.c,c_isxdigit,c,def{293},use{298,299,301,302,303,306},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/c-ctype.c,c_isupper,c,def{273},use{276,278},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/c-ctype.c,c_isspace,c,def{266},use{268,269},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/c-ctype.c,c_ispunct,c,def{242},use{245,246,247,249},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/c-ctype.c,c_isgraph,c,def{174},use{177,179},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/c-ctype.c,c_isdigit,c,def{137},use{140,142},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/c-ctype.c,c_iscntrl,c,def{103},use{106,108},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/c-ctype.c,c_isprint,c,def{208},use{211,213},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/c-ctype.c,c_isalnum,c,def{33},use{38,39,41,42,43,46},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/c-ctype.c,c_toupper,c,def{359},use{362,364,392},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/c-ctype.c,c_isblank,c,def{97},use{99},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/c-ctype.c,c_islower,c,def{154},use{157,159},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/c-ctype.c,c_isalpha,c,def{68},use{72,74,77},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/gnulib/lib/c-ctype.c,c_isascii,c,def{27},use{29},dvars{},pointers{},cfuncs{}

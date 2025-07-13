@@ -1,0 +1,13 @@
+libvirt-1.1.0/src/access/viraccessapicheckqemu.c,virDomainQemuMonitorCommandEnsureACL,rv,def{60,65},use{67},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessapicheckqemu.c,virDomainQemuMonitorCommandEnsureACL,mgr,def{59,62},use{65,66,71,254,256,258,259,260,262,263,266,271,272,273,274,338,343},dvars{klass,is_zero,rv},pointers{},cfuncs{VIR_FREE{1},dispose{1},virAtomicIntDecAndTest{1},memset{3},memset{1},PROBE{3},virObjectUnref{1}}
+libvirt-1.1.0/src/access/viraccessapicheckqemu.c,virDomainQemuMonitorCommandEnsureACL,domain,def{57},use{65},dvars{rv},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessapicheckqemu.c,virDomainQemuMonitorCommandEnsureACL,conn,def{57},use{65},dvars{rv},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessapicheckqemu.c,virDomainQemuAttachEnsureACL,rv,def{35,40,46},use{42,48},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessapicheckqemu.c,virDomainQemuAttachEnsureACL,mgr,def{34,37},use{40,41,46,47,52,254,256,258,259,260,262,263,266,271,272,273,274,338,343},dvars{klass,is_zero,rv},pointers{},cfuncs{VIR_FREE{1},dispose{1},virAtomicIntDecAndTest{1},memset{3},memset{1},PROBE{3},virObjectUnref{1}}
+libvirt-1.1.0/src/access/viraccessapicheckqemu.c,virDomainQemuAttachEnsureACL,domain,def{32},use{40,46},dvars{rv},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessapicheckqemu.c,virDomainQemuAttachEnsureACL,conn,def{32},use{40,46},dvars{rv},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessapicheckqemu.c,virDomainQemuAgentCommandEnsureACL,retmgr,def{18},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessapicheckqemu.c,virDomainQemuAgentCommandEnsureACL,rv,def{16,21},use{23},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessapicheckqemu.c,virDomainQemuAgentCommandEnsureACL,mgr,def{15},use{21,22,27,254,256,258,259,260,262,263,266,271,272,273,274,338,343},dvars{klass,is_zero,rv},pointers{},cfuncs{VIR_FREE{1},dispose{1},virAtomicIntDecAndTest{1},memset{3},memset{1},PROBE{3},virObjectUnref{1}}
+libvirt-1.1.0/src/access/viraccessapicheckqemu.c,virDomainQemuAgentCommandEnsureACL,domain,def{13},use{21},dvars{rv},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessapicheckqemu.c,virDomainQemuAgentCommandEnsureACL,conn,def{13},use{21},dvars{rv},pointers{},cfuncs{}

@@ -1,0 +1,10 @@
+libvirt-1.1.0/src/util/virtypedparam.h,GLOBAL,,def{61},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virtypedparam.h,GLOBAL,param,def{57},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virtypedparam.h,GLOBAL,src,def{54},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virtypedparam.h,GLOBAL,dst,def{53},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virtypedparam.h,GLOBAL,name,def{50},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virtypedparam.h,GLOBAL,nnames,def{36},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virtypedparam.h,GLOBAL,names,def{35},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virtypedparam.h,GLOBAL,value,def{51},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virtypedparam.h,GLOBAL,nparams,def{34,49,55},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virtypedparam.h,GLOBAL,params,def{33,48},use{},dvars{},pointers{},cfuncs{}

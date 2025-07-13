@@ -1,0 +1,12 @@
+libvirt-1.1.0/src/util/viralloc.h,GLOBAL,data,def{400},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viralloc.h,GLOBAL,func,def{400},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viralloc.h,GLOBAL,count,def{60},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viralloc.h,GLOBAL,n,def{399},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viralloc.h,GLOBAL,at,def{66},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viralloc.h,GLOBAL,inPlace,def{67},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viralloc.h,GLOBAL,countptr,def{66},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viralloc.h,GLOBAL,,def{42,87,102,117,134,159,177,216,255,258,261,264,303,306,309,312,334,336,349,370,388,394,397,398,400},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viralloc.h,GLOBAL,toremove,def{60,67},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viralloc.h,GLOBAL,m,def{399},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viralloc.h,GLOBAL,size,def{60,66},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/viralloc.h,GLOBAL,ptrptr,def{60,66,73},use{},dvars{},pointers{},cfuncs{}

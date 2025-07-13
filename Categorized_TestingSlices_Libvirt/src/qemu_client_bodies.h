@@ -1,0 +1,15 @@
+libvirt-1.1.0/src/remote/qemu_client_bodies.h,remoteDomainQemuAttach,ret,def{42},use{49,53,57,58,5018,5025},dvars{dom,rv},pointers{},cfuncs{xdr_free{2},get_nonnull_domain{2},memset{4},memset{1}}
+libvirt-1.1.0/src/remote/qemu_client_bodies.h,remoteDomainQemuAttach,args,def{41,46,47},use{52},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/remote/qemu_client_bodies.h,remoteDomainQemuAttach,rv,def{39,57},use{62},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/remote/qemu_client_bodies.h,remoteDomainQemuAttach,flags,def{37},use{47},dvars{args},pointers{},cfuncs{}
+libvirt-1.1.0/src/remote/qemu_client_bodies.h,remoteDomainQemuAttach,pid_value,def{37},use{46},dvars{args},pointers{},cfuncs{}
+libvirt-1.1.0/src/remote/qemu_client_bodies.h,remoteDomainQemuAttach,priv,def{40},use{44,51,61,84,85,104,106,114,118,125,128,132,136,137,138,139,140,141,142,143,210},dvars{},pointers{conn},cfuncs{virMutexLock{1},pthread_mutex_lock{1},remoteDriverUnlock{1},remoteDriverLock{1}}
+libvirt-1.1.0/src/remote/qemu_client_bodies.h,remoteDomainQemuAttach,conn,def{37},use{40,51,57,5018},dvars{rv},pointers{},cfuncs{get_nonnull_domain{1}}
+libvirt-1.1.0/src/remote/qemu_client_bodies.h,remoteDomainQemuAgentCommand,ret,def{11},use{20,24,28,29},dvars{rv},pointers{},cfuncs{VIR_FREE{1},memset{4},memset{1}}
+libvirt-1.1.0/src/remote/qemu_client_bodies.h,remoteDomainQemuAgentCommand,args,def{10,16,17,18},use{15,23,5077,5080,5081},dvars{},pointers{},cfuncs{VIR_STRDUP_QUIET{1},memcpy{1},make_nonnull_domain{1}}
+libvirt-1.1.0/src/remote/qemu_client_bodies.h,remoteDomainQemuAgentCommand,priv,def{9},use{13,22,32,84,85,104,106,114,118,125,128,132,136,137,138,139,140,141,142,143,210},dvars{},pointers{dom},cfuncs{virMutexLock{1},pthread_mutex_lock{1},remoteDriverUnlock{1},remoteDriverLock{1}}
+libvirt-1.1.0/src/remote/qemu_client_bodies.h,remoteDomainQemuAgentCommand,dom,def{6},use{9,15,22,5077,5079,5080,5081},dvars{namedom_dst},pointers{},cfuncs{VIR_STRDUP_QUIET{1},VIR_STRDUP_QUIET{2},memcpy{1},memcpy{2},make_nonnull_domain{2},make_nonnull_domain{1}}
+libvirt-1.1.0/src/remote/qemu_client_bodies.h,remoteDomainQemuAgentCommand,rv,def{8,28},use{33},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/remote/qemu_client_bodies.h,remoteDomainQemuAgentCommand,timeout,def{6},use{17},dvars{args},pointers{},cfuncs{}
+libvirt-1.1.0/src/remote/qemu_client_bodies.h,remoteDomainQemuAgentCommand,cmd,def{6},use{16},dvars{args},pointers{},cfuncs{}
+libvirt-1.1.0/src/remote/qemu_client_bodies.h,remoteDomainQemuAgentCommand,flags,def{6},use{18},dvars{args},pointers{},cfuncs{}

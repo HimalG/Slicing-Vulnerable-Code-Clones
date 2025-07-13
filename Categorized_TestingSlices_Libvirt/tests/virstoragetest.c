@@ -1,0 +1,52 @@
+libvirt-1.1.0/tests/virstoragetest.c,mymain,chain13a,def{548},use{551,552},dvars{},pointers{},cfuncs{TEST_CHAIN{7},TEST_CHAIN{5}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,chain12a,def{523},use{526,528},dvars{},pointers{},cfuncs{TEST_CHAIN{9},TEST_CHAIN{5}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,chain9,def{484},use{486,487,488,489},dvars{},pointers{},cfuncs{TEST_CHAIN{11},TEST_CHAIN{9},TEST_CHAIN{7},TEST_CHAIN{5}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,chain8b,def{468},use{471,473},dvars{},pointers{},cfuncs{TEST_CHAIN{11},TEST_CHAIN{7}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,chain7,def{446},use{448,449,450,451},dvars{},pointers{},cfuncs{TEST_CHAIN{11},TEST_CHAIN{9},TEST_CHAIN{7},TEST_CHAIN{5}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,chain13c,def{549},use{553,554},dvars{},pointers{},cfuncs{TEST_CHAIN{11},TEST_CHAIN{9}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,chain4a,def{412},use{419,421},dvars{},pointers{},cfuncs{TEST_CHAIN{9},TEST_CHAIN{5}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,chain3c,def{411},use{416,417,422},dvars{},pointers{},cfuncs{TEST_CHAIN{11},TEST_CHAIN{9}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,link1_abs,def{376},use{549},dvars{chain13c},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,chain1,def{397},use{399,400,401,402,404,405,406,407},dvars{},pointers{},cfuncs{TEST_CHAIN{11},TEST_CHAIN{9},TEST_CHAIN{7},TEST_CHAIN{5}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,chain0,def{393},use{394},dvars{},pointers{},cfuncs{TEST_ONE_CHAIN{4}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,chain8a,def{467},use{470,472},dvars{},pointers{},cfuncs{TEST_CHAIN{9},TEST_CHAIN{5}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,qcow2_relback_absstart,def{338},use{411},dvars{chain3c},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,link2_abs,def{384},use{549},dvars{chain13c},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,link2_rel,def{380},use{548},dvars{chain13a},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,link1_rel,def{372},use{548},dvars{chain13a},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,chain11,def{515},use{517,518,519,520},dvars{},pointers{},cfuncs{TEST_CHAIN{11},TEST_CHAIN{9},TEST_CHAIN{7},TEST_CHAIN{5}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,wrap_as_raw,def{359},use{467},dvars{chain8a},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,wrap_as_probe,def{363},use{468},dvars{chain8b},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,wrap,def{355},use{446},dvars{chain7},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,chain5,def{432},use{435,436,437,438,441,443},dvars{},pointers{},cfuncs{TEST_CHAIN{11},TEST_CHAIN{9},TEST_CHAIN{7},TEST_CHAIN{5}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,qcow2_relback_relstart,def{335},use{410},dvars{chain3a},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,qcow2_protocol,def{351},use{515},dvars{chain11},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,chain6,def{433},use{440,442},dvars{},pointers{},cfuncs{TEST_CHAIN{9},TEST_CHAIN{5}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,qcow2_bogus,def{347},use{484,499},dvars{chain10,chain9},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,qed,def{367},use{524},dvars{chain12b},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,chain3a,def{410},use{414,415,420},dvars{},pointers{},cfuncs{TEST_CHAIN{7},TEST_CHAIN{5}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,chain12b,def{524},use{527,529},dvars{},pointers{},cfuncs{TEST_CHAIN{11},TEST_CHAIN{7}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,qcow2_absback,def{341},use{432,446},dvars{chain7,chain5},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,chain10,def{499},use{501,502,503,504},dvars{},pointers{},cfuncs{TEST_CHAIN{11},TEST_CHAIN{9},TEST_CHAIN{7},TEST_CHAIN{5}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,cmd,def{305,426,455,461,477,493,508,535,541},use{169,244,246,425,428,454,457,460,463,476,480,492,495,507,511,534,537,540,544,559,2383,2546,2549,2552,2553,2556,2557,2558,2560,2561,2562,2564,2565,2566,2568,2569,2570,2572,2574,2578,2579,2582,2584,2585,2587,2588,2590,2593,2596},dvars{},pointers{},cfuncs{pthread_join{1},virCommandAbort{1},virCommandFree{1},VIR_FREE{1},VIR_FORCE_CLOSE{1},virThreadJoin{1}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,ret,def{304,429,458,464,481,496,512,538,545},use{310,429,458,464,481,496,512,538,545,561},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,raw,def{332},use{397,410,411,412,432,433,446,467,468,523,524,548,549},dvars{chain13a,chain12b,chain12a,chain8b,chain8a,chain7,chain5,chain6,chain1,chain13c,chain4a,chain3c,chain3a},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,qcow2_as_probe,def{344},use{468},dvars{chain8b},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,,def{302},use{428,457,463,480,495,511,537,544,561,2025,2030,2045,2073,2091,2115,2123,2125,2130,2131,2133,2136},dvars{string_io,cmd},pointers{},cfuncs{VIR_FREE{1},errbuf ? NULLSTR{2},VIR_DEBUG{2},virCommandRun{2},virCommandRun{1}}
+libvirt-1.1.0/tests/virstoragetest.c,mymain,retret,def{309},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,testPrepImages,canonqcow2,def{142},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,testPrepImages,canonraw,def{123},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,testPrepImages,qemuimg,def{91,93},use{92,94,131,138,150,159,835,839,840,844,846,1306,1311,1318,1323},dvars{cmd},pointers{},cfuncs{VIR_FREE{1},virCommandAddArg{1},virCommandNewArgList{1}}
+libvirt-1.1.0/tests/virstoragetest.c,testPrepImages,cmd,def{89,118,131,138,150,159},use{117,119,130,134,137,140,149,151,153,154,158,160,162,163,169,177,244,246,1306,1311,1318,1323,1373,1380,1389,1394,2383,2546,2549,2552,2553,2556,2557,2558,2560,2561,2562,2564,2565,2566,2568,2569,2570,2572,2574,2578,2579,2582,2584,2585,2587,2588,2590,2593,2596},dvars{cmd},pointers{},cfuncs{pthread_join{1},virThreadJoin{1},VIR_FORCE_CLOSE{1},virCommandFree{1},VIR_FREE{1},virCommandAbort{1},virCommandAddArg{1},virCommandAddArgFormat{1}}
+libvirt-1.1.0/tests/virstoragetest.c,testPrepImages,ret,def{88,175,184},use{175,178,180},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,testPrepImages,,def{86},use{97,98,99,100,101,106,111,119,123,134,140,142,154,163,168,169,330,334,346,348,351,352,353,2025,2030,2035,2037,2045,2073,2091,2115,2123,2125,2130,2131,2133,2136},dvars{ret,string_io,cmd},pointers{},cfuncs{va_end{1},virVasprintf{3},va_start{1},VIR_FREE{1},errbuf ? NULLSTR{2},virAsprintf{1},virAsprintf{3},canonicalize_file_name{1},chdir{1},symlink{2},VIR_DEBUG{2},virCommandRun{2},virCommandRun{1},virFileMakePath{1}}
+libvirt-1.1.0/tests/virstoragetest.c,testCleanupImages,cmd,def{63,80},use{81,82,169,244,246,2025,2045,2073,2091,2115,2130,2136,2383,2546,2549,2552,2553,2556,2557,2558,2560,2561,2562,2564,2565,2566,2568,2569,2570,2572,2574,2578,2579,2582,2584,2585,2587,2588,2590,2593,2596},dvars{string_io,cmd},pointers{},cfuncs{errbuf ? NULLSTR{2},pthread_join{1},virCommandFree{1},VIR_FREE{1},VIR_FORCE_CLOSE{1},virThreadJoin{1},VIR_DEBUG{2},virCommandAbort{1},virCommandRun{1}}
+libvirt-1.1.0/tests/virstoragetest.c,testCleanupImages,,def{61},use{74},dvars{},pointers{},cfuncs{chdir{1}}
+libvirt-1.1.0/tests/virstoragetest.c,testStorageChain,actual,def{251},use{267,276,279,280,282,286,356,359,360,385},dvars{},pointers{},cfuncs{(int) {3},strlen{1},virtTestDifference{3},VIR_FREE{1}}
+libvirt-1.1.0/tests/virstoragetest.c,testStorageChain,i,def{223},use{253,288,290},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,testStorageChain,ret,def{220,230,295},use{230,295,298},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,testStorageChain,elt,def{222,248,287},use{249,269,270,271,272,273},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/virstoragetest.c,testStorageChain,expect,def{250},use{258,275,279,280,281,285},dvars{},pointers{},cfuncs{virtTestDifference{2},VIR_FREE{1}}
+libvirt-1.1.0/tests/virstoragetest.c,testStorageChain,meta,def{221,225},use{94,96,97,98,227,248,297,1120,1122,1125,1126,1127,1128,1129,1130,1131},dvars{elt},pointers{},cfuncs{virBitmapFree{1},VIR_FREE{1},virStorageFileFreeMetadata{1}}
+libvirt-1.1.0/tests/virstoragetest.c,testStorageChain,data,def{219},use{225,226,228,233,237,253,255,256,257,260,261,262,263,264,265,266,290,1025,1026,1030,1034,1040,1043,1062,1064,1094,1098,1100,1103,1108,1109,1110},dvars{ret,NULLfd,next,meta},pointers{args},cfuncs{VIR_FREE{1},virHashFree{1},dataFree{2},dataFree{1},VIR_DEBUG{5},keyFree{1},virStorageFileGetMetadataRecurse{7},virStorageFileGetMetadataRecurse{5},virStorageFileGetMetadata{5},virStorageFileGetMetadata{2},virStorageFileGetMetadata{1}}
+libvirt-1.1.0/tests/virstoragetest.c,testStorageChain,args,def{217},use{219,225,226},dvars{meta},pointers{},cfuncs{}

@@ -1,0 +1,23 @@
+libvirt-1.1.0/tests/sysinfotest.c,main,,def{182,189},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/sysinfotest.c,test_x86,,def{158},use{162,163,168},dvars{},pointers{},cfuncs{defined{1},sysinfotest_run{4},sysinfotest_run{3}}
+libvirt-1.1.0/tests/sysinfotest.c,testSysinfo,testdataexpectedvirtTestLoadFiletestdataexpectedsysfsExpectDataret,def{72},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/sysinfotest.c,testSysinfo,testdata,def{66},use{68},dvars{},pointers{data},cfuncs{virSysinfoSetup{3},virSysinfoSetup{2},virSysinfoSetup{1}}
+libvirt-1.1.0/tests/sysinfotest.c,testSysinfo,sysfsExpectData,def{62},use{82,83,90,356,359,360,385},dvars{},pointers{},cfuncs{VIR_FREE{1},(int) {3},strlen{1},virtTestDifference{3}}
+libvirt-1.1.0/tests/sysinfotest.c,testSysinfo,buf,def{65},use{76,79,92,243,245},dvars{},pointers{},cfuncs{VIR_FREE{1},virBufferFreeAndReset{1}}
+libvirt-1.1.0/tests/sysinfotest.c,testSysinfo,sysfsActualData,def{63,79},use{82,83},dvars{},pointers{buf},cfuncs{virtTestDifference{2}}
+libvirt-1.1.0/tests/sysinfotest.c,testSysinfo,result,def{61,87},use{87,94},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/sysinfotest.c,testSysinfo,ret,def{64},use{74,76,78,81,82,83,84,86,87,88,89,90,91,92,94,95,96,97,98,99,100,101,102,103,104,105,107,108,109,110,111,112,113,114,115,116,117,118,120,122},dvars{},pointers{},cfuncs{VIR_FREE{1},virSysinfoDefFree{1}}
+libvirt-1.1.0/tests/sysinfotest.c,testSysinfo,data,def{59},use{66},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/sysinfotest.c,test_ppc,,def{146},use{149,150,156},dvars{},pointers{},cfuncs{defined{1},sysinfotest_run{3},sysinfotest_run{2}}
+libvirt-1.1.0/tests/sysinfotest.c,sysinfotest_run,ret,def{105,121},use{128},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/sysinfotest.c,sysinfotest_run,testdata,def{104},use{108,110,112,114,118,124,125,126,127},dvars{},pointers{},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/tests/sysinfotest.c,sysinfotest_run,test,def{98},use{118},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/sysinfotest.c,sysinfotest_run,expected,def{102},use{113,114,127},dvars{},pointers{},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/tests/sysinfotest.c,sysinfotest_run,sysinfo,def{100},use{109,110,125},dvars{},pointers{},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/tests/sysinfotest.c,sysinfotest_run,decoder,def{99},use{107,108,124},dvars{},pointers{},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/tests/sysinfotest.c,sysinfotest_run,cpuinfo,def{101},use{111,112,126},dvars{},pointers{},cfuncs{VIR_FREE{1}}
+libvirt-1.1.0/tests/sysinfotest.c,test_arm,,def{170},use{173,174},dvars{},pointers{},cfuncs{sysinfotest_run{3},sysinfotest_run{2}}
+libvirt-1.1.0/tests/sysinfotest.c,test_s390,,def{134},use{137,144},dvars{},pointers{},cfuncs{defined{1},sysinfotest_run{2}}
+libvirt-1.1.0/tests/sysinfotest.c,GLOBAL,cpuinfo,def{49},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/sysinfotest.c,GLOBAL,sysinfo,def{48},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/tests/sysinfotest.c,GLOBAL,decoder,def{47},use{},dvars{},pointers{},cfuncs{}

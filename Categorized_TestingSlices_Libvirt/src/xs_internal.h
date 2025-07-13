@@ -1,0 +1,16 @@
+libvirt-1.1.0/src/xen/xs_internal.h,GLOBAL,evt,def{100},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xs_internal.h,GLOBAL,path,def{60,82,87,92,96},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xs_internal.h,GLOBAL,flags,def{31},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xs_internal.h,GLOBAL,auth,def{30},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xs_internal.h,GLOBAL,uuid,def{57},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xs_internal.h,GLOBAL,bdf,def{52},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xs_internal.h,GLOBAL,dev,def{49},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xs_internal.h,GLOBAL,opaque,def{62,85,94,98},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xs_internal.h,GLOBAL,domid,def{39,41,43,51},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xs_internal.h,GLOBAL,id,def{45,48,54,56},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xs_internal.h,GLOBAL,token,def{61,83,88,93,97},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xs_internal.h,GLOBAL,maxids,def{36},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xs_internal.h,GLOBAL,mac,def{46},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xs_internal.h,GLOBAL,cb,def{84},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xs_internal.h,GLOBAL,ids,def{35},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/xen/xs_internal.h,GLOBAL,conn,def{29,32,33,34,38,40,42,44,47,50,53,55,59,81,86,91,95},use{},dvars{},pointers{},cfuncs{}

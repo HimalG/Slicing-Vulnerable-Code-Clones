@@ -1,0 +1,14 @@
+libvirt-1.1.0/src/conf/nwfilter_ipaddrmap.c,virNWFilterIPAddrMapShutdown,ipAddressMap,def{166},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/nwfilter_ipaddrmap.c,virNWFilterIPAddrMapShutdown,,def{163},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/nwfilter_ipaddrmap.c,virNWFilterIPAddrMapGetIPAddr,res,def{134,138},use{142},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/nwfilter_ipaddrmap.c,virNWFilterIPAddrMapGetIPAddr,ifname,def{132},use{101,103,104,138,369,374,377,379},dvars{NULLkey,value,res},pointers{},cfuncs{keyCode{2},virHashComputeKey{2},virHashLookup{2}}
+libvirt-1.1.0/src/conf/nwfilter_ipaddrmap.c,virNWFilterIPAddrMapDelIPAddr,ret,def{97,110,117},use{117,122},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/nwfilter_ipaddrmap.c,virNWFilterIPAddrMapDelIPAddr,val,def{98,103,115},use{45,49,52,54,57,58,59,64,104,105,107,109,110,116,172,174,179,286,290,295,296,297},dvars{ret},pointers{},cfuncs{virNWFilterVarValueFree{1},VIR_FREE{1},virNWFilterVarValueGetCardinality{1},virNWFilterVarValueDelValue{1}}
+libvirt-1.1.0/src/conf/nwfilter_ipaddrmap.c,virNWFilterIPAddrMapDelIPAddr,ipaddr,def{95},use{102,106,109,286,296},dvars{},pointers{ipstr,ipaddr},cfuncs{virNWFilterVarValueDelValue{2}}
+libvirt-1.1.0/src/conf/nwfilter_ipaddrmap.c,virNWFilterIPAddrMapDelIPAddr,ifname,def{95},use{101,103,104,115,369,374,377,379,396,398,402,721,724,728},dvars{NULLkey,value,val},pointers{},cfuncs{virHashSteal{2},keyCode{2},virHashRemoveEntry{2},virNWFilterHashTableRemoveEntry{2},virHashComputeKey{2},virHashLookup{2}}
+libvirt-1.1.0/src/conf/nwfilter_ipaddrmap.c,virNWFilterIPAddrMapAddIPAddr,val,def{54,58,60},use{59,61,65,68,646,662,670},dvars{ret},pointers{},cfuncs{virNWFilterHashTablePut{3}}
+libvirt-1.1.0/src/conf/nwfilter_ipaddrmap.c,virNWFilterIPAddrMapAddIPAddr,ret,def{53,65,72},use{72,77},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/nwfilter_ipaddrmap.c,virNWFilterIPAddrMapAddIPAddr,addr,def{51},use{60,68,108,112,124},dvars{val},pointers{},cfuncs{virNWFilterVarValueCreateSimple{1}}
+libvirt-1.1.0/src/conf/nwfilter_ipaddrmap.c,virNWFilterIPAddrMapAddIPAddr,ifname,def{51},use{58,65,101,103,104,369,374,377,379,645,649,652,662,670},dvars{NULLkey,value,ret,val},pointers{},cfuncs{keyCode{2},virHashComputeKey{2},virNWFilterHashTablePut{2},virHashLookup{2}}
+libvirt-1.1.0/src/conf/nwfilter_ipaddrmap.c,virNWFilterIPAddrMapInit,resipAddressMap,def{148},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/conf/nwfilter_ipaddrmap.c,virNWFilterIPAddrMapInit,,def{146},use{52,53,54,55,56,150,154,155,177,183,189,203},dvars{ret},pointers{},cfuncs{pthread_mutexattr_destroy{1},pthread_mutex_init{2},pthread_mutexattr_init{1},pthread_mutexattr_settype{1},virMutexInit{1}}

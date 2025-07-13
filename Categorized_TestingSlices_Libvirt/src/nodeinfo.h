@@ -1,0 +1,14 @@
+libvirt-1.1.0/src/nodeinfo.h,GLOBAL,online,def{57},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nodeinfo.h,GLOBAL,cpumap,def{56},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nodeinfo.h,GLOBAL,startCell,def{41},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nodeinfo.h,GLOBAL,maxCells,def{42},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nodeinfo.h,GLOBAL,max_id,def{45},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nodeinfo.h,GLOBAL,freeMems,def{40},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nodeinfo.h,GLOBAL,caps,def{30},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nodeinfo.h,GLOBAL,flags,def{35,39,50,54,58},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nodeinfo.h,GLOBAL,cellNum,def{36},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nodeinfo.h,GLOBAL,,def{43,46},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nodeinfo.h,GLOBAL,nparams,def{34,38,49,53},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nodeinfo.h,GLOBAL,params,def{33,37,48,52},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nodeinfo.h,GLOBAL,nodeinfo,def{29},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/nodeinfo.h,GLOBAL,cpuNum,def{32},use{},dvars{},pointers{},cfuncs{}

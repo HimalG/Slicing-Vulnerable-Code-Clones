@@ -1,0 +1,9 @@
+libvirt-1.1.0/src/access/viraccessdrivernop.c,virAccessDriverNopCheckStoragePool,ATTRIBUTE_UNUSED,def{88,89,90,91},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdrivernop.c,virAccessDriverNopCheckNWFilter,ATTRIBUTE_UNUSED,def{70,71,72,73},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdrivernop.c,virAccessDriverNopCheckInterface,ATTRIBUTE_UNUSED,def{43,44,45,46},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdrivernop.c,virAccessDriverNopCheckNodeDevice,ATTRIBUTE_UNUSED,def{61,62,63,64},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdrivernop.c,virAccessDriverNopCheckDomain,ATTRIBUTE_UNUSED,def{34,35,36,37},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdrivernop.c,virAccessDriverNopCheckStorageVol,ATTRIBUTE_UNUSED,def{97,98,99,100,101},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdrivernop.c,virAccessDriverNopCheckConnect,ATTRIBUTE_UNUSED,def{26,27,28},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdrivernop.c,virAccessDriverNopCheckSecret,ATTRIBUTE_UNUSED,def{79,80,81,82},use{},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/access/viraccessdrivernop.c,virAccessDriverNopCheckNetwork,ATTRIBUTE_UNUSED,def{52,53,54,55},use{},dvars{},pointers{},cfuncs{}

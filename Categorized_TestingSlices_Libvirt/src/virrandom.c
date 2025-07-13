@@ -1,0 +1,13 @@
+libvirt-1.1.0/src/util/virrandom.c,virRandomInt,val,def{143},use{144},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virrandom.c,virRandomInt,max,def{138},use{140,141,144},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virrandom.c,virRandom,val,def{124},use{126},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virrandom.c,virRandom,,def{122},use{126},dvars{},pointers{},cfuncs{ldexp{1}}
+libvirt-1.1.0/src/util/virrandom.c,virRandomBits,bits,def{90},use{102,103,107,108},dvars{ret},pointers{},cfuncs{random_r{2}}
+libvirt-1.1.0/src/util/virrandom.c,virRandomBits,bits_per_iter,def{88},use{101,103,104},dvars{ret},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virrandom.c,virRandomBits,ret,def{89,103,108},use{111},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virrandom.c,virRandomBits,nbits,def{86},use{101,104,108},dvars{ret},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virrandom.c,virRandomGenerateWWN,oui,def{156,165,169,172,174},use{181},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virrandom.c,virRandomGenerateWWN,virt_type,def{155},use{158,164,166,167,168,170,171,173},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virrandom.c,virRandomGenerateWWN,wwn,def{154},use{181},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virrandom.c,virRandomOnceInit,seed,def{47},use{62},dvars{},pointers{},cfuncs{}
+libvirt-1.1.0/src/util/virrandom.c,virRandomOnceInit,,def{45},use{52,53,54,55,56,59,62,63,64,65,177,183,189,203},dvars{ret},pointers{},cfuncs{pthread_mutexattr_destroy{1},pthread_mutex_init{2},pthread_mutexattr_settype{1},pthread_mutexattr_init{1},initstate_r{4},initstate_r{2},initstate_r{1},virMutexInit{1}}
