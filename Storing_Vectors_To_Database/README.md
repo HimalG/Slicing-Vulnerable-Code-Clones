@@ -4,7 +4,7 @@ This folder contains scripts for importing CSV-based slicing vector data into a 
 
 ## Contents
 
-### 1. `CSVtoMongoDB.py`
+### 1. `CSVtoMongoDB_ManualInsertion.py`
 - **Purpose**: Inserts slicing vector data from a CSV file into the MongoDB collection `TrainingVectors`.
 - **Features**:
   - Prompts user for CSV file path.
@@ -12,7 +12,7 @@ This folder contains scripts for importing CSV-based slicing vector data into a 
   - Preserves existing data in the collection.
   - Gracefully handles common file and data format errors.
 
-### 2. `VectorExtractorScript.py`
+### 2. `CSVtoMongoDB_BatchInsertion.py`
 - **Purpose**: Bulk inserts slicing vector data from a predefined CSV file into the `TrainingVectors` collection.
 - **Features**:
   - Assumes CSV includes `Id` and required numeric fields.
