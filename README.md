@@ -1,4 +1,4 @@
-# VulDetector: A Slicing-Based Approach for Detecting and Patching Vulnerable Code Clones**
+# VulDetector: A Slicing-Based Approach for Detecting and Patching Vulnerable Code Clones
 
 The `VulDetector` system is designed to identify security vulnerabilities in code clones using a methodical three-stage process. It focuses on extracting non-contiguous, re-ordered, and intertwined statements related to vulnerabilities (𝑉 𝑅𝑠𝑡𝑚𝑡𝑠) from well-documented vulnerable programs and their corresponding patches for specific known vulnerabilities. This process includes:
 
@@ -179,11 +179,11 @@ For detailed information, refer to the [README in the `CloneDetection` folder](C
 
 ## Accuracy Classifier Script
 
-The `AccuracyClassifier` folder contains a Python script for evaluating vulnerability detection performance by classifying vulnerabilities into True Positives (TP), False Positives (FP), True Negatives (TN), and False Negatives (FN) using slicing vectors.
+The `Accuracy_Classifier` folder contains a Python script for evaluating vulnerability detection performance by classifying vulnerabilities into True Positives (TP), False Positives (FP), True Negatives (TN), and False Negatives (FN) using slicing vectors.
 
 ### Key Features:
 - Classifies vulnerabilities based on slicing vector similarity.
 - Calculates and tracks TP, FP, TN, and FN for each detected vulnerability.
 - Outputs classification metrics and the associated file IDs for each category.
 
-For detailed information, refer to the [README in the `AccuracyClassifier` folder](AccuracyClassifier/README.md).
+For detailed information, refer to the [README in the `Accuracy_Classifier` folder](Accuracy_Classifier/README.md).
